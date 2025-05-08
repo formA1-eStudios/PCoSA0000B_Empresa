@@ -1,0 +1,3 @@
+DELETE_REMOTE_FILES=true
+com.aptana.ide.syncing.views.CLOSE_WHEN_DONE=true
+eclipse.preferences.version=1

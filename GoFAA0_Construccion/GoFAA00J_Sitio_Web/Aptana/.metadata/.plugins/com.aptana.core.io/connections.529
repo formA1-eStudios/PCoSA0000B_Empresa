@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections>
+<connection id="ddb80559-efc0-47c6-a476-7619ed9948d5" type="ftp">
+<name>CPanel</name>
+<host>ftpupload.net</host>
+<path>/forma1.pro/htdocs</path>
+<login>if0_37943690</login>
+<passive>true</passive>
+<encoding>UTF-8</encoding>
+<timezone>Etc/GMT+9</timezone>
+</connection>
+<connection id="40988edf-83c8-4538-912b-195f3cef706d" type="workspace">
+<name>public_Server</name>
+<path>/public_Server</path>
+</connection>
+</connections>

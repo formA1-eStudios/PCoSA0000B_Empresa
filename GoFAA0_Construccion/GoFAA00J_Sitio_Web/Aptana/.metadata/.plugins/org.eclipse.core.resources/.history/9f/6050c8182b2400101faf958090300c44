@@ -1,0 +1,361 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!--
+=============================================================
+
+Copyright (c) HTML5 Boilerplate
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+=============================================================
+COPYRIGHT (c) JUAN CAMILO TORRES
+12025 (PERPETUAL HOLOCENE CALENDAR)
+THIS DOCUMENT IS LICENSED UNDER CREATIVE COMMONS 4.0 BY-SA.
+=============================================================
+-->
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="es-CO"> <!--<![endif]-->
+
+   <head>
+      <meta charset="UTF-8" http-equiv="Content-Type" content="text/html">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--meta name="viewport" content="width=device-width, height=device-height, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"-->
+
+<!--
+===========================================================
+BASIC TAGS FOR SEO OPTIMIZATION
+===========================================================
+-->
+      <title>formA1 eStudios</title>
+      <meta name="description" content="Soluciones innovadoras en consultoría & gestión para tus proyectos.">
+      <meta name="author" content="juanKme">
+      <meta name="web_author" content="formA1 eStudios. Bogotá, Colombia">
+      <meta name="contact" content="info@forma1.pro">
+      <meta name="rating" content="general">
+      <meta name="keywords" content="profesionales, professionals, consultoria, consultancy, investigación, desarrollo, innovación, research, development, R&D+di, proyectos, projects, ingenieria, engineering, arquitectura, architechture, construccion, construction, AECO, ecodiseño, ecodesign, consultoría ambiental, environmental consultancy, estructuras, structures, concreto reforzado, reinforced concrete, acero estructural, structural steel, software, BIM, project management, piim, games, juegos, apps, aplicacines, aplicativos, software development, desarrollo de software, marketing, publicity, publicidad, bogota, colombia, creative studios, estudio, estudio de proyectos, diseño web, paginas web, animation, animacion, 3D, 4D, modelado digital, digital arts, creatividad, creativity">
+      <meta name="copyright" content="formA eStudios ©2024-2025">
+      <meta name="distribution" content="global">
+      <meta name="language" content="spanish">
+      <meta name="google" content="notranslate">
+      <meta name="robots" content="index, follow">
+      <meta name="generator" content="Axway Group; Aptana Studio 3">
+      <meta name="version" content="0.3.3">
+      <meta name="last modified" content="21/apr/12025">
+      <base href="https://forma1.pro" target="_parent" />
+      <meta name="theme-color" content="#696969">
+      <link rel="manifest" href="/site.webmanifest">
+
+      <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any">
+      <link rel="icon" href="/icon.svg" type="image/svg+xml" sizes="any">
+      <link rel="shortcut icon" href="/favicon.ico">
+      <link rel="apple-touch-startup-image" href="/launch.png">
+      <link rel="apple-touch-icon" href="/icon.png" sizes="57x57 60x60 72x72 114x114 120x120 144x144 152x152 180x180 256x256 512x512">
+
+      <meta property="og:site_name" content="formA1 eStudios">
+      <meta property="og:title" content="formA1 eStudios — inicio">
+      <meta property="og:description" content="Soluciones innovadoras en consultoría & gestión para tus proyectos">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://forma1.pro/">
+      <meta property="og:image" content="/A1brand/assets/img/splash.png">
+      <meta property="og:locale" content="es_CO">
+
+      <!-- SOCIALS' TAGS FOR IMPROVED VISIBILITY VIA LINKEDIN -->
+      <meta prefix="og: http://ogp.me/ns#" property="og:title" content="formA1 eStudios">
+      <meta prefix="og: http://ogp.me/ns#" property="og:description" content="Soluciones innovadoras en consultoría & gestión para tus proyectos">
+      <meta prefix="og: http://ogp.me/ns#" property="og:image" content="/A1brand/assets/img/splash.png">
+
+      <!-- SOCIALS' TAGS FOR IMPROVED VISIBILITY VIA X/TWITTER -->
+      <!-- for more information read https://developer.x.com/en/docs/x-for-websites/cards/overview/abouts-cards -->
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:site" content="@formA1_eStudios">
+      <meta name="twitter:site:id" content="@formA1_eStudios">
+      <meta name="twitter:creator" content="@juanKme_">
+      <meta name="twitter:creator:id" content="@juanKme_">
+      <meta name="twitter:title" content="formA1 eStudios — Consultoría & Gestión de Proyectos">
+      <meta name="twitter:description" content="Soluciones innovadoras en consultoría & gestión para tus proyectos">
+      <meta name="twitter:image" content="resources/img/formA1_logoB_amplio.png">
+      <meta name="twitter:image:alt" content="This image shows the company's logo in a white background.">
+
+<!--
+===========================================================
+STYLING CSS CODE FOR BRANDING COMPLIANCE
+===========================================================
+-->
+      <!-- the next styling code has been recovered from previous projects; needs curation -->
+      <link rel="stylesheet" type="text/css" media="all" href="/A1brand/styles/mainPages.css">
+      <link rel="stylesheet" type="text/css" media="print" href="/A1brand/styles/print.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="/A1brand/styles/screen.css">
+      <link rel="stylesheet" type="text/css" media="handheld" href="/A1brand/styles/handheld.css">
+      <link rel="stylesheet" type="text/css" media="tv,projector and (scan:progresive)" href="/A1brand/styles/tvset.css">
+
+      <link rel="stylesheet" type="text/css" media="all" href="resources/src/css/customStyles.css">
+
+      <!-- DELETE THIS 2 <link> ELEMENTS ONCE PROPRIETARY WEB DESIGN IS COMPLETE!
+         the following code has been created using assistance from DeepSeek's R1 AI model.
+         It is being used as reference for the creation of the proprietary styling code. -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+      <!--
+         END OF STYLING CODE
+      -->
+
+      <!-- MINIMAL JAVASCRIPT CODE FOR IMPROVED LOADING TIMES
+      Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries -->
+      <script src="/A1brand/scripts/libs/modernizr-custom.js"></script>
+      <!--script src="/A1brand/scripts/libs/modernizr-2.0.6.min.js"></script-->
+   </head>
+   <body id="pageHTMLbody" class="container">
+<!--
+===========================================================
+THIS HEADER SECTION MUST BE LEFT UNMODIFIED AS PER BRANDING
+GUIDELINES PUBLISHED BY THE ORGANIZATION
+===========================================================
+-->
+      <header id="pagesMainHeader" class="container">
+         <nav>
+            <a href="/">
+               <img id="headingLogoformA1" class="brandingLogo" src="/A1brand/assets/img/logo_formA1_light_header.png" alt="formA1 Logo"/><img id="headingLogoeStudios" class="brandingLogo" src="/A1brand/assets/img/logo_eStudios_header.png" alt="eStudios Logo"/></a>
+            <button class="mobile-menu-btn">
+               <i class="fas fa-bars"> </i>
+            </button>
+            <ul class="nav-links">
+               <li><a href="/catalogo">proyectos</a></li>
+               <li><a href="/oferta">servicios</a></li>
+               <li><a href="/nosotros">nosotros</a></li>
+               <li><a href="/colectivo">participa</a></li>
+               <li><a href="/contacto">contacto</a></li>
+            </ul>
+         </nav>
+      </header>
+
+<!--
+===========================================================
+THE MAIN CONTENT OF THE PAGE IS PLACED IN THIS SECTION
+===========================================================
+-->
+      <div id="pagesContent" class="container">
+
+         <!-- Hero Section -->
+         <section class="hero" id="home">
+            <div class="container">
+               <h1>Consultoría &amp; Gestión de Proyectos</h1>
+               <p>Ofrecemos excelencia en ingeniería de proyectos, en gestión integral de información para proyectos y en sistemas de gestión empresarial. Solicita un diagnóstico gratuito para tu proyecto!</p>
+               <a href="/contacto/consulta.html" class="btn btn-outline">Cotizar</a>
+               <a href="/oferta" class="btn">Servicios</a>
+            </div>
+         </section>
+
+         <!-- Features Section -->
+         <section class="section" id="features">
+            <div class="container">
+               <div class="section-title">
+                  <h2>Nuestra oferta profesional</h2>
+                  <p>Brindamos servicios especializados de consultoría y gestión de proyectos para profesionales, independientes y empresarios que requieren estrategias para impulsar el desarrollo de sus iniciativas. Hemos desarrollado un completo portafolio de servicios &amp; soluciones flexibles y ajustables a los requerimientos de cada proyecto, lo que nos permite ayudarles a reducir costos, mejorar ingresos y lograr sus objetivos.<br/><br/>Descubre las principales características de nuestro trabajo a continuación.</p><br/>
+               </div>
+               <div class="features-grid">
+                  <!-- Feature 1 -->
+                  <div class="feature-card">
+                     <div class="feature-img">
+                        <img src="/resources/assets/frame_img_jobBench01.jpeg" alt="Project Engineering">
+                     </div>
+                     <div class="feature-content">
+                        <h3>Ingeniería de proyectos</h3>
+                        <p>Avanzadas soluciones de ingeniería a la medida, creadas desde concepto hasta implementación para ayudar a alcanzar la excelencia técnica y normativa que demandan tus proyectos.</p>
+                        <a href="#" class="read-more">Saber más <i class="fas fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+
+                  <!-- Feature 2 -->
+                  <div class="feature-card">
+                     <div class="feature-img">
+                        <img src="/resources/assets/frame_img_dataGraphs01.jpeg" alt="Data Management">
+                     </div>
+                     <div class="feature-content">
+                        <h3>Información con valor</h3>
+                        <p>Infraestructura tecnológica que está especializada para la organización, control, procesamiento y analisis de la información de tus proyectos, lo que permite optimizar sus procesos decisívos.</p>
+                        <a href="#" class="read-more">Saber más <i class="fas fa-arrow-right"></i></a>
+                     </div>
+                  </div>
+
+                  <!-- Feature 3 -->
+                  <div class="feature-card">
+                      <div class="feature-img">
+                          <img src="/resources/assets/frame_img_jobsite00.jpeg" alt="Integrated Project Management">
+                      </div>
+                      <div class="feature-content">
+                          <h3>Gestión integral para empresas</h3>
+                          <p>Acompañamiento profesional completo en la gestión de tus proyectos para su entrega efectiva conforme al programa, al presupuesto y a los mejores estándares de calidad.</p>
+                          <a href="#" class="read-more">Saber más <i class="fas fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+
+                  <!-- Feature 4 -->
+                  <div class="feature-card">
+                      <div class="feature-img">
+                          <img src="/resources/assets/frame_img_teamWork01.jpeg" alt="Core Technologies">
+                      </div>
+                      <div class="feature-content">
+                          <h3>Desarrollo × innovación</h3>
+                          <p>Implementación e integración de tecnologías innovadoras para mejorar la colaboración, agilizar procesos, minimizar errores, reducir costos y maximizar los beneficios. Blockchain, BIM, Cloud Computing y mucho más.</p>
+                          <a href="#" class="read-more">Saber más <i class="fas fa-arrow-right"></i></a>
+                      </div>
+                  </div>
+                 </div>
+             </div>
+         </section>
+
+      </div>
+
+<!--
+===========================================================
+THIS FOOTER SECTION MUST BE LEFT UNMODIFIED AS PER BRANDING
+GUIDELINES PUBLISHED BY THE ORGANIZATION
+===========================================================
+-->
+      <footer id="pagesMainFooter" class="container">
+         <div class="container">
+            <div class="footerContent">
+               <div class="footerColumn">
+                  <h3>Enlaces</h3>
+                  <ul class="footer-links">
+                     <li><a href="https://formA1.pro">nuestra web</a></li>
+                     <li><a href="/catalogo">nuestro trabajo</a></li>
+                     <li><a href="/oferta">nuestra oferta</a></li>
+                     <li><a href="/nosotros">nuestra identidad</a></li>
+                     <li><a href="/nosotros/blog">nuestro blog</a></li>
+                     <li><a href="/colectivo">nuestras alianzas</a></li>
+                     <li><a href="/contacto">nuestros canales</a></li>
+                   </ul>
+               </div>
+               <div class="footerColumn">
+                  <h3>Iniciativas</h3>
+                  <ul class="footer-links">
+                     <li><a href="/catalogo/CPH">calendario CPH</a></li>
+                     <li><a href="/catalogo/piim">gestión PiiM</a></li>
+                     <li><a href="/catalogo/iSTATE">evaluación iSTATE</a></li>
+                     <li><a href="/catalogo/mejorfin">finanzas para todos</a></li>
+                  </ul>
+               </div>
+               <div class="footerColumn">
+                  <h3>Servicios</h3>
+                  <ul class="footer-links">
+                     <li><a href="/oferta/sgp.html">gestión de proyectos</a></li>
+                     <li><a href="/oferta/cgp.html">consultoría en GP</a></li>
+                     <li><a href="/oferta/sge.html">sistemas de gestión empresarial</a></li>
+                     <li><a href="/oferta/cge.html">consultoría en SGE</a></li>
+                     <li><a href="/oferta/audit.html">auditoría en calidad SGI/SGE</a></li>
+                     <li><a href="/oferta/ccert.html">consultoría en certificación</a></li>
+                     <li><a href="/oferta/edu.html">formación &amp; capacitación</a></li>
+                     <li><a href="https://tienda.forma1.pro">tienda en línea</a></li>
+                  </ul>
+               </div>
+               <div class="footerColumn">
+                  <h3>Recursos</h3>
+                  <ul class="footer-links">
+                     <li><a href="https://estudios.forma1.pro">eStudios<span class="inlineTrademark">&trade;</span> dedicados</a></li>
+                     <li><a href="https://docs.forma1.pro">documentación</a></li>
+                     <li><a href="https://soporte.forma1.pro">soporte técnico</a></li>
+                  </ul>
+               </div>
+               <div class="footerColumn">
+                  <br/><h2>
+                     <img id="footingLogoformA1" class="formA1Logo" src="/A1brand/assets/img/logo_formA1_light_header.png" alt="formA1 Logo"/>
+                     <img id="footingLogoeStudios" class="formA1Logo" src="/A1brand/assets/img/logo_eStudios_header.png" alt="eStudios Logo"/></h2>
+                  <p>Impulsamos el desarrollo empresarial de proyectos, clientes y aliados con base en nuestros servicios de gestión de información, así fomentamos la toma de decisiones que construyen BienEstar<span class="inlineTrademark">&trade;</span> colectivo.</p><br/>
+                  <div class="social-links">
+                     <a id="tagSocial_openCollective" target="_blank" href="https://www.opencollective.com/forma1estudios"><i class="fab fa-linkedin-in"> </i></a>
+                     <a id="tagSocial_linkedin" target="_blank" href="https://www.linkedin.com/company/formA1-eStudios/"><i class="fab fa-linkedin-in"> </i></a>
+                     <a id="tagSocial_github" target="_blank" href="https://www.github.com/formA1-eStudios/"><i class="fab fa-facebook-f"> </i></a>
+                     <a id="tagSocial_youtube" target="_blank" href="https://www.youtube.com/@formA1_eStudios/"><i class="fab fa-instagram"> </i></a>
+                     <a id="tagSocial_twitter" target="_blank" href="https://www.x.com/formA1_eStudios/"><i class="fab fa-twitter"> </i></a><br/><br/><br/>
+                  </div>
+                  <br/><h3>Contacto</h3><br/>
+                  <address>
+                     <p id="tagKey_geo" class="tagKey"><i class="fas fa-map-marker-alt">&nbsp; Carrera 5#45-30, Ed. Cramer 45.<br/>&nbsp; &nbsp; &nbsp; Bogotá D.C. Colombia. (112031)</i></p>
+                     <p id="tagKey_tel" class="tagKey"><i class="fas fa-phone">&nbsp; (+57) 6017 665 942</i></p>
+                     <p id="tagKey_env" class="tagKey"><i class="fas fa-envelope">&nbsp; info@formA1.pro</i></p>
+                     <p id="tagKey_clo" class="tagKey"><i class="fas fa-clock">&nbsp; 07:00h ~ 20:00h, lunes a sábados</i><br/></p><br/>
+                  </address><br/>
+               </div>
+            </div>
+         </div>
+         <!--div class="footerContent">
+            <p>
+               Sellos &amp; Certificaciones  (SE PUEDEN AGREGAR PROGRESIVAMENTE CONFORME SE CONSIGAN)
+            </p>
+            <p>
+               <img id="" class="stampQuality" style="height:33px!important;margin-left:3px;vertical-align:text-bottom;" src="" alt="">
+               <img id="" class="stampQuality" style="height:33px!important;margin-left:3px;vertical-align:text-bottom;" src="" alt="">
+               <img id="" class="stampQuality" style="height:33px!important;margin-left:3px;vertical-align:text-bottom;" src="" alt="">
+            </p><br/>
+         </div-->
+         <div>
+            <div id="pagesFooter" class="footerBottom">
+               <p> &nbsp; | &nbsp; <a href="/legal">Legales</a> &nbsp; | &nbsp; <a href="/legal/privacidad.html">Privacidad</a> &nbsp; | &nbsp; <a href="/legal/terminos.html">Términos</a> &nbsp; | &nbsp; <a href="/legal/conducta.html">Conducta</a> &nbsp; | &nbsp; <a href="/legal/licencias.html">Licenciamiento</a> &nbsp; | &nbsp; <a href="/legal/cookies.html">Cookies</a> &nbsp; | &nbsp; <br/></p><br/>
+               <p><br/><img id="pagesSignatureLight" class="A1lightSignature" src="/A1brand/assets/img/signature_dark.png" alt="pequeño icono de la organización"><br/></p>
+               <p id="legalNoticeQuote" class="legalNotice" xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/">
+                  &copy; 12025 (<abbr title="Calendario Perenne-Holoceno">CPH</abbr>). La propiedad intelectual de este <a property="dct:title" rel="cc:attributionURL" href="https://www.forma1.pro/">sitio web</a> creado por <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/juankme/" target="_blank">Juan Torres</a> está licenciada bajo
+                  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-SA 4.0</a>
+                  <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;"><img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:15px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a><br/>
+               </p>
+            </div>
+         </div>
+      </footer>
+
+<!--
+===========================================================
+ALL SCRIPTING CODE MUST BE PLACED AFTER THE FOOTER OF THE
+PAGE FOR IMPROVED RESPONSIVENESS AS PER BRANDING GUIDELINES
+===========================================================
+-->
+
+         <!-- Google tag (gtag.js) for web analytics -->
+         <script async src="https://www.googletagmanager.com/gtag/js?id=G-S8PLEC17BR"></script>
+         <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-S8PLEC17BR');</script>
+
+         <!-- All third party scripts referenced here to be used within the website -->
+         <script src="/A1brand/scripts/UX.4.47.0.js" crossorigin=""></script>
+         <script>window.jQuery || document.write('<script src="js/libs/jquery-3.7.1.min.js"><\/script>');</script>
+         <!--script src="//ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+         <!--script>"use strict";Core.utils.onAllowCookieTracking(function () {const queryString = window.location.search;const urlParams = new URLSearchParams(queryString);const whiteList = ['gclid', 'fbclid', 'gdan_clid'];const belongToList = list => item => list.includes(item);const belongToWhiteList = belongToList(whiteList);Array.from(urlParams).forEach(param => {const [queryKey, queryResult] = param;if (!belongToWhiteList(queryKey)) return;localStorage.setItem(queryKey, queryResult);});});</script>
+
+         <!-- All proprietary scripts included/referenced here to be used within the website -->
+         <script src="/A1brand/scripts/main.js"></script>
+         <script defer src="resources/src/js/plugins.js"></script>
+         <script defer src="resources/src/js/script.js"></script>
+
+         <!--
+            END OF SCRIPTS
+         -->
+
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+<!--[if lt IE 7 ]>
+   <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+   <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+<![endif]-->
+
+   </body>
+</html>

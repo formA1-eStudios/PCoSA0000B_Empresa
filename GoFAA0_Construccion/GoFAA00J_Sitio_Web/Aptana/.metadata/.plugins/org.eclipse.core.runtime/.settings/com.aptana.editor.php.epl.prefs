@@ -1,0 +1,10 @@
+com.aptana.editor.common.useGlobalDefaults=false
+eclipse.preferences.version=1
+foldClasses=true
+foldComments=true
+foldFunctions=true
+foldPHPDoc=true
+spacesForTabs=true
+tabWidth=3
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

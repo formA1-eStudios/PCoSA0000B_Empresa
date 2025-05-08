@@ -1,0 +1,8 @@
+php_value display_errors Off
+php_value date.timezone America/Bogota
+ErrorDocument 404 /A1brand/_errorDocs/not_found.html
+ErrorDocument 403 /A1brand/_errorDocs/forbidden.html
+ErrorDocument 401 /A1brand/_errorDocs/unauthorized.html
+ErrorDocument 400 /A1brand/_errorDocs/bad_request.html
+ErrorDocument 500 /A1brand/_errorDocs/internal_server_error.html
+ErrorDocument 503 /A1brand/_errorDocs/service_unavailable.html

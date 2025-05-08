@@ -1,0 +1,30 @@
+/*
+This file contain the basic layout and style elements and configuration common
+for any page of the site. The detailed style of each component not specified
+herein must be created on its specific style-sheet file under the right folder:
+http://(subdomain).softsensestudios.com/.../localResources/...
+
+Copyright ©2011-2012. SoftSense Development Group S.A.S
+All rights reserved.
+*/
+
+/* This are the main layout components.This file affect all pages that uses this theme. Do NOT modify */
+
+
+@media (max-width: 576px) {
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form {
+        padding: 30px 20px;
+    }
+}

@@ -1,0 +1,8 @@
+com.aptana.editor.common.useGlobalDefaults=false
+eclipse.preferences.version=1
+fold_arrays=true
+fold_comments=true
+fold_functions=true
+fold_objects=true
+spacesForTabs=true
+tabWidth=3

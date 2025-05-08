@@ -1,0 +1,10 @@
+DirectoryPermission=511
+DownloadDirectoryPermission=511
+DownloadFilePermission=438
+DownloadSpecificPermissions=false
+DownloadUpdatePermissions=true
+FilePermission=438
+GLOBAL_CLOAKING_EXTENSIONS=CVS;.git;.tmp*~;.DS_Store;.svn;.settings
+UploadSpecificPermissions=false
+UploadUpdatePermissions=true
+eclipse.preferences.version=1
