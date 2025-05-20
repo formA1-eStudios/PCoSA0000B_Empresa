@@ -302,7 +302,7 @@ HERO SECTIONS STYLING CODE FOR WEB PAGES
 
 .btn:hover {
     background-color: var(--objectContrastNeutral);
-    color: white;
+    color: var(--objectContrastNeutral);
 }
 
 .btn-outline {
@@ -314,7 +314,7 @@ HERO SECTIONS STYLING CODE FOR WEB PAGES
 
 .btn-outline:hover {
     background-color: white;
-    color: var(--objectLight);
+    color: var(--objectContrastNeutral);
 }
 
 /*

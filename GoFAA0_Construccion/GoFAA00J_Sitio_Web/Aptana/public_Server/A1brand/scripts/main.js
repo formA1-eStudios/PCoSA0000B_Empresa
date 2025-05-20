@@ -231,14 +231,12 @@ window.onload = function() {
   });
 
   // Form submission
-  const contactForm = document.getElementById('contactForm');
-  if(contactForm) {
+  function validateForm() {
+//  const contactForm = document.getElementById('contactForm');
+//  if(contactForm) {
       contactForm.addEventListener('submit', function(e) {
           e.preventDefault();
-
-          // Here you would typically send the form data to your server
-          // For demonstration, we'll just show an alert
-          alert('Thank you for your message! We will contact you soon.');
+          submit();
           this.reset();
       });
   }
