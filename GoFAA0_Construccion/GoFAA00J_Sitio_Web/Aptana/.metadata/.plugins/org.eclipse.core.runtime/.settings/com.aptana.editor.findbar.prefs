@@ -1,3 +1,0 @@
-FIND_BAR_DECORATOR_FIND_ENTRIES=\#\n\#Mon Apr 28 05\:21\:46 COT 2025\n6\=after\n5\=--primary\n4\=--secondary\n3\=--primaryBG\n2\=\\u2014secundaryBG\n1\=--secondaryBG\n0\=\\u2014secondaryBG\n7\=img_item my_settings\n
-FIND_BAR_DECORATOR_REPLACE_ENTRIES=\#\n\#Mon Apr 28 05\:21\:46 COT 2025\n4\=--primaryBG\n3\=--secondaryBG\n2\=\\u2014backgorundPrimary\n1\=\\u2014backgorundSecundary\n0\=-backgorundSecundary\n
-eclipse.preferences.version=1

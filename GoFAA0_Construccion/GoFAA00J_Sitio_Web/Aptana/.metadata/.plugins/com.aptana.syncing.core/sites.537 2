@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<sites>
-<site>
-<name>CPanel on InfinityFree</name>
-<source>workspace:/public_Server</source>
-<destination>aptanavfs://ddb80559-efc0-47c6-a476-7619ed9948d5/</destination>
-</site>
-</sites>

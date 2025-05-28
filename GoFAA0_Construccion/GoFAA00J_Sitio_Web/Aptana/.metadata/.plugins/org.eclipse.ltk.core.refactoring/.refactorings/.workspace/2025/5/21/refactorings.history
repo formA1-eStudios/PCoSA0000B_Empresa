@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/public_Server/contacto/resources/src/php/config 2.php" element2="/public_Server/contacto/resources/src/php/config.php" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1747778244911"/>
-</session>
