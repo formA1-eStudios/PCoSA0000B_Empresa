@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Juan Torres" date="2023-11-28T21:04:42.824Z" timestamp="2023-11-28T21:04:42.824Z">
+    <change idref="t1" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t1" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t1" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t1" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="resourceLeveledDate" type="date" from="2001-01-01T11:00:00.000Z" resolved="yes"/>
+    <change idref="t1" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t1" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="styleDict" type="dict" from="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.794&quot;;&#10;        g = &quot;0.794&quot;;&#10;        r = &quot;0.794&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t1" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t1" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t1000" to="t1" to-position="0" resolved="yes">
+      <change idref="t1000" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1000" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1000" attribute="title" type="string" to="Inicio de actividades"/>
+    </change>
+    <change idref="t1100" to="t1" to-position="1" resolved="yes">
+      <change idref="t1100" attribute="internalPrerequisitesString" type="string" from="" to="1000FS"/>
+      <change idref="t1100" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1100" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1100" attribute="title" type="string" to="Administración &amp; Gerencia (AIU+)"/>
+    </change>
+    <change idref="t1200" to="t1" to-position="2" resolved="yes">
+      <change idref="t1200" attribute="internalPrerequisitesString" type="string" from="" to="1000FS"/>
+      <change idref="t1200" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1200" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1200" attribute="title" type="string" to="Estudios fundamentales"/>
+    </change>
+    <change idref="t1300" to="t1" to-position="3" resolved="yes">
+      <change idref="t1300" attribute="internalPrerequisitesString" type="string" from="" to="1200FS"/>
+      <change idref="t1300" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1300" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1300" attribute="title" type="string" to="Diseños para edificaciones"/>
+    </change>
+    <change idref="t1400" to="t1" to-position="4" resolved="yes">
+      <change idref="t1400" attribute="internalPrerequisitesString" type="string" from="" to="1200FS"/>
+      <change idref="t1400" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1400" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1400" attribute="title" type="string" to="Diseños para maquinaria"/>
+    </change>
+    <change idref="t1500" to="t1" to-position="5" resolved="yes">
+      <change idref="t1500" attribute="internalPrerequisitesString" type="string" from="" to="1200FS"/>
+      <change idref="t1500" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1500" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1500" attribute="title" type="string" to="Diseños para intangibles"/>
+    </change>
+    <change idref="t1600" to="t1" to-position="6" resolved="yes">
+      <change idref="t1600" attribute="internalPrerequisitesString" type="string" from="" to="1300FS, 1400FS, 1500FS"/>
+      <change idref="t1600" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1600" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1600" attribute="title" type="string" to="Estudios finales"/>
+    </change>
+    <change idref="t9991" to="t1" to-position="7" resolved="yes">
+      <change idref="t9991" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t9991" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t9991" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t9991" attribute="resourceLeveledDate" type="date" to="2001-01-01T05:00:00.000Z"/>
+      <change idref="t9991" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t9991" attribute="title" type="string" to="Fin de Planeación"/>
+    </change>
+    <change idref="t2" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t2" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t2" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t2" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t2" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="resourceLeveledDate" type="date" from="2001-01-01T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t2" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t2" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t2000" to="t2" to-position="0" resolved="yes">
+      <change idref="t2000" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2000" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2000" attribute="title" type="string" to="Inicio de actividades"/>
+    </change>
+    <change idref="t2100" to="t2" to-position="1" resolved="yes">
+      <change idref="t2100" attribute="internalPrerequisitesString" type="string" from="" to="2000FS"/>
+      <change idref="t2100" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2100" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2100" attribute="title" type="string" to="Administración &amp; Gerencia (AIU+)"/>
+    </change>
+    <change idref="t2200" to="t2" to-position="2" resolved="yes">
+      <change idref="t2200" attribute="internalPrerequisitesString" type="string" from="" to="2000FS"/>
+      <change idref="t2200" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2200" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2200" attribute="title" type="string" to="Construcción de edificaciones"/>
+    </change>
+    <change idref="t2300" to="t2" to-position="3" resolved="yes">
+      <change idref="t2300" attribute="internalPrerequisitesString" type="string" from="" to="2000FS"/>
+      <change idref="t2300" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2300" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2300" attribute="title" type="string" to="Construcción de maquinaria"/>
+    </change>
+    <change idref="t2400" to="t2" to-position="4" resolved="yes">
+      <change idref="t2400" attribute="internalPrerequisitesString" type="string" from="" to="2000FS"/>
+      <change idref="t2400" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2400" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2400" attribute="title" type="string" to="Construcción de prototipos"/>
+    </change>
+    <change idref="t9992" to="t2" to-position="5" resolved="yes">
+      <change idref="t9992" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t9992" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t9992" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t9992" attribute="resourceLeveledDate" type="date" to="2001-01-01T05:00:00.000Z"/>
+      <change idref="t9992" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t9992" attribute="title" type="string" to="Fin de Implementación"/>
+    </change>
+    <change idref="t3" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t3" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t3" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t3" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t3" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t3" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t3" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t3" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t3" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t3" attribute="resourceLeveledDate" type="date" from="2001-01-01T11:00:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t3" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t3" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t3000" to="t3" to-position="0" resolved="yes">
+      <change idref="t3000" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t3000" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t3000" attribute="title" type="string" to="Inicio de actividades"/>
+    </change>
+    <change idref="t3100" to="t3" to-position="1" resolved="yes">
+      <change idref="t3100" attribute="internalPrerequisitesString" type="string" from="" to="3000FS"/>
+      <change idref="t3100" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t3100" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t3100" attribute="title" type="string" to="Gerencia general de operaciones"/>
+    </change>
+    <change idref="t9993" to="t3" to-position="2" resolved="yes">
+      <change idref="t9993" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t9993" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t9993" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t9993" attribute="resourceLeveledDate" type="date" to="2001-01-01T05:00:00.000Z"/>
+      <change idref="t9993" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t9993" attribute="title" type="string" to="Fin de Ejecución/Operación"/>
+    </change>
+    <change idref="t4" attribute="isGroup" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="t4" attribute="multiResourceWorkType" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="isSplittableTask" type="real" from="1" resolved="yes"/>
+    <change idref="t4" attribute="taskType" type="real" from="0" to="2" resolved="yes"/>
+    <change idref="t4" attribute="resourceAssignmentType" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="staticCost" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="effort" type="real" from="28800" resolved="yes"/>
+    <change idref="t4" attribute="isSplitChunk" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="scheduleType" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="resourceLeveledDate" type="date" from="2001-01-01T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4" attribute="internalAssignments" type="string" from="" resolved="yes"/>
+    <change idref="t4" attribute="isSplitTask" type="real" from="0" resolved="yes"/>
+    <change idref="t4" attribute="internalEffortDone" type="real" from="0" resolved="yes"/>
+    <change idref="t4000" to="t4" to-position="0" resolved="yes">
+      <change idref="t4000" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4000" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4000" attribute="title" type="string" to="Inicio de actividades"/>
+    </change>
+    <change idref="t4100" to="t4" to-position="1" resolved="yes">
+      <change idref="t4100" attribute="internalPrerequisitesString" type="string" from="" to="4000FS"/>
+      <change idref="t4100" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4100" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4100" attribute="title" type="string" to="Administración &amp; Gerencia (AIU+)"/>
+    </change>
+    <change idref="t4200" to="t4" to-position="2" resolved="yes">
+      <change idref="t4200" attribute="internalPrerequisitesString" type="string" from="" to="4000FS"/>
+      <change idref="t4200" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4200" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4200" attribute="title" type="string" to="Clausura de operaciones"/>
+    </change>
+    <change idref="t4300" to="t4" to-position="3" resolved="yes">
+      <change idref="t4300" attribute="internalPrerequisitesString" type="string" from="" to="4210FS, 4220FS"/>
+      <change idref="t4300" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4300" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4300" attribute="title" type="string" to="Restitución integral de recursos"/>
+    </change>
+    <change idref="t4400" to="t4" to-position="4" resolved="yes">
+      <change idref="t4400" attribute="internalPrerequisitesString" type="string" from="" to="4230FS, 4332FS"/>
+      <change idref="t4400" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4400" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4400" attribute="title" type="string" to="Terminación del proyecto"/>
+    </change>
+    <change idref="t9994" to="t4" to-position="5" resolved="yes">
+      <change idref="t9994" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t9994" attribute="internalPrerequisitesString" type="string" from="" to="4422FS"/>
+      <change idref="t9994" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t9994" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t9994" attribute="resourceLeveledDate" type="date" to="2001-01-06T23:00:00.000Z"/>
+      <change idref="t9994" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t9994" attribute="title" type="string" to="Fin de Reintegración"/>
+    </change>
+    <change idref="t1310" to="t1300" to-position="0" resolved="yes">
+      <change idref="t1310" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1310" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1310" attribute="title" type="string" to="Estudios y diseños conceptuales"/>
+    </change>
+    <change idref="t1320" to="t1300" to-position="1" resolved="yes">
+      <change idref="t1320" attribute="internalPrerequisitesString" type="string" from="" to="1310FS"/>
+      <change idref="t1320" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1320" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1320" attribute="title" type="string" to="Estudios y diseños básicos"/>
+    </change>
+    <change idref="t1330" to="t1300" to-position="2" resolved="yes">
+      <change idref="t1330" attribute="internalPrerequisitesString" type="string" from="" to="1320FS"/>
+      <change idref="t1330" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1330" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1330" attribute="title" type="string" to="Estudios y diseños avanzados"/>
+    </change>
+    <change idref="t1340" to="t1300" to-position="3" resolved="yes">
+      <change idref="t1340" attribute="internalPrerequisitesString" type="string" from="" to="1330FS"/>
+      <change idref="t1340" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1340" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1340" attribute="title" type="string" to="Diseños constructivos"/>
+    </change>
+    <change idref="t1311" to="t1310" to-position="0" resolved="yes">
+      <change idref="t1311" attribute="resourceLeveledDate" type="date" to="2001-01-05T11:00:00.000Z"/>
+      <change idref="t1311" attribute="title" type="string" to="Estudios ambientales"/>
+    </change>
+    <change idref="t1312" to="t1310" to-position="1" resolved="yes">
+      <change idref="t1312" attribute="resourceLeveledDate" type="date" to="2001-01-05T11:00:00.000Z"/>
+      <change idref="t1312" attribute="title" type="string" to="Estudios arquitectónicos"/>
+    </change>
+    <change idref="t1313" to="t1310" to-position="2" resolved="yes">
+      <change idref="t1313" attribute="resourceLeveledDate" type="date" to="2001-01-05T11:00:00.000Z"/>
+      <change idref="t1313" attribute="title" type="string" to="Estudios de infraestructura"/>
+    </change>
+    <change idref="t1321" to="t1320" to-position="0" resolved="yes">
+      <change idref="t1321" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1321" attribute="title" type="string" to="Parámetros de desempeño ambiental"/>
+    </change>
+    <change idref="t1322" to="t1320" to-position="1" resolved="yes">
+      <change idref="t1322" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1322" attribute="title" type="string" to="Diseños arquitectónicos"/>
+    </change>
+    <change idref="t1323" to="t1320" to-position="2" resolved="yes">
+      <change idref="t1323" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1323" attribute="title" type="string" to="Diseños estructurales"/>
+    </change>
+    <change idref="t1324" to="t1320" to-position="3" resolved="yes">
+      <change idref="t1324" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1324" attribute="title" type="string" to="Diseños de redes hidrosanitarias"/>
+    </change>
+    <change idref="t1325" to="t1320" to-position="4" resolved="yes">
+      <change idref="t1325" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1325" attribute="title" type="string" to="Diseños de redes mecánicas"/>
+    </change>
+    <change idref="t1326" to="t1320" to-position="5" resolved="yes">
+      <change idref="t1326" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1326" attribute="title" type="string" to="Diseños de redes energéticas"/>
+    </change>
+    <change idref="t1331" to="t1330" to-position="0" resolved="yes">
+      <change idref="t1331" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1331" attribute="title" type="string" to="Diseños arquitectónicos"/>
+    </change>
+    <change idref="t1332" to="t1330" to-position="1" resolved="yes">
+      <change idref="t1332" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1332" attribute="title" type="string" to="Diseños estructurales"/>
+    </change>
+    <change idref="t1333" to="t1330" to-position="2" resolved="yes">
+      <change idref="t1333" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1333" attribute="title" type="string" to="Diseños de redes hidrosanitarias"/>
+    </change>
+    <change idref="t1334" to="t1330" to-position="3" resolved="yes">
+      <change idref="t1334" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1334" attribute="title" type="string" to="Diseños de redes mecánicas"/>
+    </change>
+    <change idref="t1335" to="t1330" to-position="4" resolved="yes">
+      <change idref="t1335" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1335" attribute="title" type="string" to="Diseños de redes energéticas"/>
+    </change>
+    <change idref="t1336" to="t1330" to-position="5" resolved="yes">
+      <change idref="t1336" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1336" attribute="title" type="string" to="Diseños complementarios"/>
+    </change>
+    <change idref="t1341" to="t1340" to-position="0" resolved="yes">
+      <change idref="t1341" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1341" attribute="title" type="string" to="Diseños arquitectónicos"/>
+    </change>
+    <change idref="t1342" to="t1340" to-position="1" resolved="yes">
+      <change idref="t1342" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1342" attribute="title" type="string" to="Diseños estructurales"/>
+    </change>
+    <change idref="t1343" to="t1340" to-position="2" resolved="yes">
+      <change idref="t1343" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1343" attribute="title" type="string" to="Diseños de redes hidrosanitarias"/>
+    </change>
+    <change idref="t1344" to="t1340" to-position="3" resolved="yes">
+      <change idref="t1344" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1344" attribute="title" type="string" to="Diseños de redes mecánicas"/>
+    </change>
+    <change idref="t1345" to="t1340" to-position="4" resolved="yes">
+      <change idref="t1345" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1345" attribute="title" type="string" to="Diseños de redes energéticas"/>
+    </change>
+    <change idref="t1346" to="t1340" to-position="5" resolved="yes">
+      <change idref="t1346" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1346" attribute="title" type="string" to="Diseños complementarios"/>
+    </change>
+    <change idref="t2001" to="t2000" to-position="0" resolved="yes">
+      <change idref="t2001" attribute="resourceLeveledDate" type="date" to="2001-01-01T11:00:00.000Z"/>
+      <change idref="t2001" attribute="title" type="string" to="Creación formal de las obras"/>
+    </change>
+    <change idref="t1410" to="t1400" to-position="0" resolved="yes">
+      <change idref="t1410" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1410" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1410" attribute="title" type="string" to="Estudios y diseños conceptuales"/>
+    </change>
+    <change idref="t1420" to="t1400" to-position="1" resolved="yes">
+      <change idref="t1420" attribute="internalPrerequisitesString" type="string" from="" to="1410FS"/>
+      <change idref="t1420" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1420" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1420" attribute="title" type="string" to="Estudios y diseños básicos"/>
+    </change>
+    <change idref="t1430" to="t1400" to-position="2" resolved="yes">
+      <change idref="t1430" attribute="internalPrerequisitesString" type="string" from="" to="1420FS"/>
+      <change idref="t1430" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1430" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1430" attribute="title" type="string" to="Estudios y diseños avanzados"/>
+    </change>
+    <change idref="t1440" to="t1400" to-position="3" resolved="yes">
+      <change idref="t1440" attribute="internalPrerequisitesString" type="string" from="" to="1430FS"/>
+      <change idref="t1440" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1440" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1440" attribute="title" type="string" to="Diseños constructivos"/>
+    </change>
+    <change idref="t1411" to="t1410" to-position="0" resolved="yes">
+      <change idref="t1411" attribute="resourceLeveledDate" type="date" to="2001-01-05T11:00:00.000Z"/>
+      <change idref="t1411" attribute="title" type="string" to="Estudios ambientales"/>
+    </change>
+    <change idref="t1412" to="t1410" to-position="1" resolved="yes">
+      <change idref="t1412" attribute="resourceLeveledDate" type="date" to="2001-01-05T11:00:00.000Z"/>
+      <change idref="t1412" attribute="title" type="string" to="Estudios arquitectónicos"/>
+    </change>
+    <change idref="t1413" to="t1410" to-position="2" resolved="yes">
+      <change idref="t1413" attribute="resourceLeveledDate" type="date" to="2001-01-05T11:00:00.000Z"/>
+      <change idref="t1413" attribute="title" type="string" to="Estudios de infraestructura"/>
+    </change>
+    <change idref="t1421" to="t1420" to-position="0" resolved="yes">
+      <change idref="t1421" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1421" attribute="title" type="string" to="Parámetros de desempeño ambiental"/>
+    </change>
+    <change idref="t1422" to="t1420" to-position="1" resolved="yes">
+      <change idref="t1422" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1422" attribute="title" type="string" to="Diseños industriales"/>
+    </change>
+    <change idref="t1423" to="t1420" to-position="2" resolved="yes">
+      <change idref="t1423" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1423" attribute="title" type="string" to="Diseños estructurales"/>
+    </change>
+    <change idref="t1424" to="t1420" to-position="3" resolved="yes">
+      <change idref="t1424" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1424" attribute="title" type="string" to="Diseños de redes hidráulicas"/>
+    </change>
+    <change idref="t1425" to="t1420" to-position="4" resolved="yes">
+      <change idref="t1425" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1425" attribute="title" type="string" to="Diseños de redes mecánicas"/>
+    </change>
+    <change idref="t1426" to="t1420" to-position="5" resolved="yes">
+      <change idref="t1426" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1426" attribute="title" type="string" to="Diseños de redes energéticas"/>
+    </change>
+    <change idref="t1431" to="t1430" to-position="0" resolved="yes">
+      <change idref="t1431" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1431" attribute="title" type="string" to="Diseños industriales"/>
+    </change>
+    <change idref="t1432" to="t1430" to-position="1" resolved="yes">
+      <change idref="t1432" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1432" attribute="title" type="string" to="Diseños estructurales"/>
+    </change>
+    <change idref="t1433" to="t1430" to-position="2" resolved="yes">
+      <change idref="t1433" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1433" attribute="title" type="string" to="Diseños de redes hidráulicas"/>
+    </change>
+    <change idref="t1434" to="t1430" to-position="3" resolved="yes">
+      <change idref="t1434" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1434" attribute="title" type="string" to="Diseños de redes mecánicas"/>
+    </change>
+    <change idref="t1435" to="t1430" to-position="4" resolved="yes">
+      <change idref="t1435" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1435" attribute="title" type="string" to="Diseños de redes energéticas"/>
+    </change>
+    <change idref="t1436" to="t1430" to-position="5" resolved="yes">
+      <change idref="t1436" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1436" attribute="title" type="string" to="Diseños complementarios"/>
+    </change>
+    <change idref="t1441" to="t1440" to-position="0" resolved="yes">
+      <change idref="t1441" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1441" attribute="title" type="string" to="Diseños industriales"/>
+    </change>
+    <change idref="t1442" to="t1440" to-position="1" resolved="yes">
+      <change idref="t1442" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1442" attribute="title" type="string" to="Diseños estructurales"/>
+    </change>
+    <change idref="t1443" to="t1440" to-position="2" resolved="yes">
+      <change idref="t1443" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1443" attribute="title" type="string" to="Diseños de redes hidráulicas"/>
+    </change>
+    <change idref="t1444" to="t1440" to-position="3" resolved="yes">
+      <change idref="t1444" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1444" attribute="title" type="string" to="Diseños de redes mecánicas"/>
+    </change>
+    <change idref="t1445" to="t1440" to-position="4" resolved="yes">
+      <change idref="t1445" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1445" attribute="title" type="string" to="Diseños de redes energéticas"/>
+    </change>
+    <change idref="t1446" to="t1440" to-position="5" resolved="yes">
+      <change idref="t1446" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1446" attribute="title" type="string" to="Diseños complementarios"/>
+    </change>
+    <change idref="t2110" to="t2100" to-position="0" resolved="yes">
+      <change idref="t2110" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2110" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2110" attribute="title" type="string" to="(A) Generalidades en el proyecto"/>
+    </change>
+    <change idref="t2120" to="t2100" to-position="1" resolved="yes">
+      <change idref="t2120" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2120" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2120" attribute="title" type="string" to="(I) Actividades imprevistas"/>
+    </change>
+    <change idref="t2130" to="t2100" to-position="2" resolved="yes">
+      <change idref="t2130" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2130" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2130" attribute="title" type="string" to="(U) Distribución de utilidades"/>
+    </change>
+    <change idref="t2140" to="t2100" to-position="3" resolved="yes">
+      <change idref="t2140" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2140" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2140" attribute="title" type="string" to="+ Garantías y tributos"/>
+    </change>
+    <change idref="t4001" to="t4000" to-position="0" resolved="yes">
+      <change idref="t4001" attribute="resourceLeveledDate" type="date" to="2001-01-01T11:00:00.000Z"/>
+      <change idref="t4001" attribute="title" type="string" to="Terminación formal del proyecto"/>
+    </change>
+    <change idref="t2111" to="t2110" to-position="0" resolved="yes">
+      <change idref="t2111" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2111" attribute="title" type="string" to="Propiedades y bienes en general"/>
+    </change>
+    <change idref="t2112" to="t2110" to-position="1" resolved="yes">
+      <change idref="t2112" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2112" attribute="title" type="string" to="Servicios generales"/>
+    </change>
+    <change idref="t2113" to="t2110" to-position="2" resolved="yes">
+      <change idref="t2113" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2113" attribute="title" type="string" to="Servicios especiales de soporte a la construcción"/>
+    </change>
+    <change idref="t2114" to="t2110" to-position="3" resolved="yes">
+      <change idref="t2114" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2114" attribute="title" type="string" to="Sistema de gestión integral (SGI)"/>
+    </change>
+    <change idref="t2115" to="t2110" to-position="4" resolved="yes">
+      <change idref="t2115" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2115" attribute="title" type="string" to="Supervisión de proyecto"/>
+    </change>
+    <change idref="t2116" to="t2110" to-position="5" resolved="yes">
+      <change idref="t2116" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2116" attribute="title" type="string" to="Interventoría de proyecto"/>
+    </change>
+    <change idref="t2121" to="t2120" to-position="0" resolved="yes">
+      <change idref="t2121" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2121" attribute="title" type="string" to="Actividades ejecutadas por demanda o requerimiento especial del proyecto"/>
+    </change>
+    <change idref="t2122" to="t2120" to-position="1" resolved="yes">
+      <change idref="t2122" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2122" attribute="title" type="string" to="Actividades accidentales"/>
+    </change>
+    <change idref="t2131" to="t2130" to-position="0" resolved="yes">
+      <change idref="t2131" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2131" attribute="title" type="string" to="Utilidades para comisionamiento"/>
+    </change>
+    <change idref="t2132" to="t2130" to-position="1" resolved="yes">
+      <change idref="t2132" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2132" attribute="title" type="string" to="Utilidades primarias"/>
+    </change>
+    <change idref="t1510" to="t1500" to-position="0" resolved="yes">
+      <change idref="t1510" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1510" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1510" attribute="title" type="string" to="Estudios y diseños conceptuales"/>
+    </change>
+    <change idref="t1520" to="t1500" to-position="1" resolved="yes">
+      <change idref="t1520" attribute="internalPrerequisitesString" type="string" from="" to="1510FS"/>
+      <change idref="t1520" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1520" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1520" attribute="title" type="string" to="Estudios y diseños básicos"/>
+    </change>
+    <change idref="t1530" to="t1500" to-position="2" resolved="yes">
+      <change idref="t1530" attribute="internalPrerequisitesString" type="string" from="" to="1520FS"/>
+      <change idref="t1530" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1530" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1530" attribute="title" type="string" to="Estudios y diseños avanzados"/>
+    </change>
+    <change idref="t1540" to="t1500" to-position="3" resolved="yes">
+      <change idref="t1540" attribute="internalPrerequisitesString" type="string" from="" to="1530FS"/>
+      <change idref="t1540" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1540" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1540" attribute="title" type="string" to="Diseños constructivos"/>
+    </change>
+    <change idref="t2141" to="t2140" to-position="0" resolved="yes">
+      <change idref="t2141" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2141" attribute="title" type="string" to="Seguros y garantías para el proyecto"/>
+    </change>
+    <change idref="t2142" to="t2140" to-position="1" resolved="yes">
+      <change idref="t2142" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2142" attribute="title" type="string" to="Gastos tributarios, legales y de representación"/>
+    </change>
+    <change idref="t1511" to="t1510" to-position="0" resolved="yes">
+      <change idref="t1511" attribute="resourceLeveledDate" type="date" to="2001-01-05T11:00:00.000Z"/>
+      <change idref="t1511" attribute="title" type="string" to="Estudios ambientales"/>
+    </change>
+    <change idref="t1512" to="t1510" to-position="1" resolved="yes">
+      <change idref="t1512" attribute="resourceLeveledDate" type="date" to="2001-01-05T11:00:00.000Z"/>
+      <change idref="t1512" attribute="title" type="string" to="Estudios arquitectónicos"/>
+    </change>
+    <change idref="t1513" to="t1510" to-position="2" resolved="yes">
+      <change idref="t1513" attribute="resourceLeveledDate" type="date" to="2001-01-05T11:00:00.000Z"/>
+      <change idref="t1513" attribute="title" type="string" to="Estudios de infraestructura"/>
+    </change>
+    <change idref="t1521" to="t1520" to-position="0" resolved="yes">
+      <change idref="t1521" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1521" attribute="title" type="string" to="Diseños para pre-producción"/>
+    </change>
+    <change idref="t1522" to="t1520" to-position="1" resolved="yes">
+      <change idref="t1522" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1522" attribute="title" type="string" to="Diseños para producción"/>
+    </change>
+    <change idref="t1523" to="t1520" to-position="2" resolved="yes">
+      <change idref="t1523" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t1523" attribute="title" type="string" to="Diseños para post-producción"/>
+    </change>
+    <change idref="t1531" to="t1530" to-position="0" resolved="yes">
+      <change idref="t1531" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1531" attribute="title" type="string" to="Diseños para pre-producción"/>
+    </change>
+    <change idref="t1532" to="t1530" to-position="1" resolved="yes">
+      <change idref="t1532" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1532" attribute="title" type="string" to="Diseños para producción funcional"/>
+    </change>
+    <change idref="t1533" to="t1530" to-position="2" resolved="yes">
+      <change idref="t1533" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1533" attribute="title" type="string" to="Diseños para producción artística"/>
+    </change>
+    <change idref="t1534" to="t1530" to-position="3" resolved="yes">
+      <change idref="t1534" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1534" attribute="title" type="string" to="Diseños para producción técnica"/>
+    </change>
+    <change idref="t1535" to="t1530" to-position="4" resolved="yes">
+      <change idref="t1535" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1535" attribute="title" type="string" to="Diseños para post-producción"/>
+    </change>
+    <change idref="t1536" to="t1530" to-position="5" resolved="yes">
+      <change idref="t1536" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t1536" attribute="title" type="string" to="Diseños complementarios"/>
+    </change>
+    <change idref="t1541" to="t1540" to-position="0" resolved="yes">
+      <change idref="t1541" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1541" attribute="title" type="string" to="Diseños para pre-producción"/>
+    </change>
+    <change idref="t1542" to="t1540" to-position="1" resolved="yes">
+      <change idref="t1542" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1542" attribute="title" type="string" to="Diseños para producción funcional"/>
+    </change>
+    <change idref="t1543" to="t1540" to-position="2" resolved="yes">
+      <change idref="t1543" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1543" attribute="title" type="string" to="Diseños para producción artística"/>
+    </change>
+    <change idref="t1544" to="t1540" to-position="3" resolved="yes">
+      <change idref="t1544" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1544" attribute="title" type="string" to="Diseños para producción técnica"/>
+    </change>
+    <change idref="t1545" to="t1540" to-position="4" resolved="yes">
+      <change idref="t1545" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1545" attribute="title" type="string" to="Diseños para post-producción"/>
+    </change>
+    <change idref="t1546" to="t1540" to-position="5" resolved="yes">
+      <change idref="t1546" attribute="resourceLeveledDate" type="date" to="2001-01-08T11:00:00.000Z"/>
+      <change idref="t1546" attribute="title" type="string" to="Diseños complementarios"/>
+    </change>
+    <change idref="t2210" to="t2200" to-position="0" resolved="yes">
+      <change idref="t2210" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2210" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2210" attribute="title" type="string" to="Obras preliminares y provisionales"/>
+    </change>
+    <change idref="t2220" to="t2200" to-position="1" resolved="yes">
+      <change idref="t2220" attribute="internalPrerequisitesString" type="string" from="" to="2210SS"/>
+      <change idref="t2220" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2220" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2220" attribute="title" type="string" to="Obras para estructuras"/>
+    </change>
+    <change idref="t2230" to="t2200" to-position="2" resolved="yes">
+      <change idref="t2230" attribute="internalPrerequisitesString" type="string" from="" to="2220SS"/>
+      <change idref="t2230" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2230" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2230" attribute="title" type="string" to="Obras de redes hidrosanitarias"/>
+    </change>
+    <change idref="t2240" to="t2200" to-position="3" resolved="yes">
+      <change idref="t2240" attribute="internalPrerequisitesString" type="string" from="" to="2220SS"/>
+      <change idref="t2240" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2240" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2240" attribute="title" type="string" to="Obras de redes mecánicas"/>
+    </change>
+    <change idref="t2250" to="t2200" to-position="4" resolved="yes">
+      <change idref="t2250" attribute="internalPrerequisitesString" type="string" from="" to="2220SS"/>
+      <change idref="t2250" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2250" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2250" attribute="title" type="string" to="Obras de redes energéticas"/>
+    </change>
+    <change idref="t2260" to="t2200" to-position="5" resolved="yes">
+      <change idref="t2260" attribute="internalPrerequisitesString" type="string" from="" to="2220SS, 2230SS, 2240SS, 2250SS"/>
+      <change idref="t2260" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2260" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2260" attribute="title" type="string" to="Obras arquitectónicas"/>
+    </change>
+    <change idref="t2270" to="t2200" to-position="6" resolved="yes">
+      <change idref="t2270" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2270" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2270" attribute="title" type="string" to="Obras complementarias"/>
+    </change>
+    <change idref="t4110" to="t4100" to-position="0" resolved="yes">
+      <change idref="t4110" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4110" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4110" attribute="title" type="string" to="(A) Generalidades en el proyecto"/>
+    </change>
+    <change idref="t4120" to="t4100" to-position="1" resolved="yes">
+      <change idref="t4120" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4120" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4120" attribute="title" type="string" to="(I) Actividades imprevistas"/>
+    </change>
+    <change idref="t4130" to="t4100" to-position="2" resolved="yes">
+      <change idref="t4130" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4130" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4130" attribute="title" type="string" to="(U) Distribución de utilidades"/>
+    </change>
+    <change idref="t4140" to="t4100" to-position="3" resolved="yes">
+      <change idref="t4140" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4140" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4140" attribute="title" type="string" to="(+) Garantías y tributos"/>
+    </change>
+    <change idref="t2211" to="t2210" to-position="0" resolved="yes">
+      <change idref="t2211" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2211" attribute="title" type="string" to="Propiedades y otros bienes"/>
+    </change>
+    <change idref="t2212" to="t2210" to-position="1" resolved="yes">
+      <change idref="t2212" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2212" attribute="title" type="string" to="Construcciones provisionales"/>
+    </change>
+    <change idref="t2213" to="t2210" to-position="2" resolved="yes">
+      <change idref="t2213" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2213" attribute="title" type="string" to="Instalaciones provisionales"/>
+    </change>
+    <change idref="t2214" to="t2210" to-position="3" resolved="yes">
+      <change idref="t2214" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2214" attribute="title" type="string" to="Alistamiento de terrenos"/>
+    </change>
+    <change idref="t2215" to="t2210" to-position="4" resolved="yes">
+      <change idref="t2215" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2215" attribute="title" type="string" to="Demoliciones"/>
+    </change>
+    <change idref="t2216" to="t2210" to-position="5" resolved="yes">
+      <change idref="t2216" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2216" attribute="title" type="string" to="Logística y traslados en obra"/>
+    </change>
+    <change idref="t2217" to="t2210" to-position="6" resolved="yes">
+      <change idref="t2217" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2217" attribute="title" type="string" to="Localización y replanteo"/>
+    </change>
+    <change idref="t2218" to="t2210" to-position="7" resolved="yes">
+      <change idref="t2218" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2218" attribute="title" type="string" to="Apuntalamientos temporales"/>
+    </change>
+    <change idref="t4111" to="t4110" to-position="0" resolved="yes">
+      <change idref="t4111" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4111" attribute="title" type="string" to="Propiedades y bienes en general"/>
+    </change>
+    <change idref="t4112" to="t4110" to-position="1" resolved="yes">
+      <change idref="t4112" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4112" attribute="title" type="string" to="Servicios generales"/>
+    </change>
+    <change idref="t4113" to="t4110" to-position="2" resolved="yes">
+      <change idref="t4113" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4113" attribute="title" type="string" to="Servicios especiales de soporte a la reintegración"/>
+    </change>
+    <change idref="t4114" to="t4110" to-position="3" resolved="yes">
+      <change idref="t4114" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4114" attribute="title" type="string" to="Sistema de gestión integral (SGI)"/>
+    </change>
+    <change idref="t4115" to="t4110" to-position="4" resolved="yes">
+      <change idref="t4115" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4115" attribute="title" type="string" to="Supervisión de proyecto"/>
+    </change>
+    <change idref="t2221" to="t2220" to-position="0" resolved="yes">
+      <change idref="t2221" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2221" attribute="title" type="string" to="Estabilización de terrenos"/>
+    </change>
+    <change idref="t2222" to="t2220" to-position="1" resolved="yes">
+      <change idref="t2222" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2222" attribute="title" type="string" to="Movimiento de tierras"/>
+    </change>
+    <change idref="t2223" to="t2220" to-position="2" resolved="yes">
+      <change idref="t2223" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2223" attribute="title" type="string" to="Estructuras de pavimentos"/>
+    </change>
+    <change idref="t2224" to="t2220" to-position="3" resolved="yes">
+      <change idref="t2224" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2224" attribute="title" type="string" to="Estructuras en maderas"/>
+    </change>
+    <change idref="t2225" to="t2220" to-position="4" resolved="yes">
+      <change idref="t2225" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2225" attribute="title" type="string" to="Estructuras en mamposterías"/>
+    </change>
+    <change idref="t2226" to="t2220" to-position="5" resolved="yes">
+      <change idref="t2226" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2226" attribute="title" type="string" to="Estructuras metálicas"/>
+    </change>
+    <change idref="t2227" to="t2220" to-position="6" resolved="yes">
+      <change idref="t2227" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2227" attribute="title" type="string" to="Estructuras en concreto simple"/>
+    </change>
+    <change idref="t2228" to="t2220" to-position="7" resolved="yes">
+      <change idref="t2228" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2228" attribute="title" type="string" to="Estructuras en concreto reforzado"/>
+    </change>
+    <change idref="t2229" to="t2220" to-position="8" resolved="yes">
+      <change idref="t2229" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2229" attribute="title" type="string" to="Otros componentes, sistemas y materiales estructurales"/>
+    </change>
+    <change idref="t2231" to="t2230" to-position="0" resolved="yes">
+      <change idref="t2231" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2231" attribute="title" type="string" to="Redes para aguas ambientales"/>
+    </change>
+    <change idref="t2232" to="t2230" to-position="1" resolved="yes">
+      <change idref="t2232" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2232" attribute="title" type="string" to="Redes para agua potable"/>
+    </change>
+    <change idref="t2233" to="t2230" to-position="2" resolved="yes">
+      <change idref="t2233" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2233" attribute="title" type="string" to="Redes para aguas servidas"/>
+    </change>
+    <change idref="t1610" to="t1600" to-position="0" resolved="yes">
+      <change idref="t1610" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1610" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1610" attribute="title" type="string" to="Estudios para la implementación"/>
+    </change>
+    <change idref="t1620" to="t1600" to-position="1" resolved="yes">
+      <change idref="t1620" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1620" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1620" attribute="title" type="string" to="Estudios para la operación"/>
+    </change>
+    <change idref="t1630" to="t1600" to-position="2" resolved="yes">
+      <change idref="t1630" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1630" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1630" attribute="title" type="string" to="Estudios para la reintegración"/>
+    </change>
+    <change idref="t4121" to="t4120" to-position="0" resolved="yes">
+      <change idref="t4121" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4121" attribute="title" type="string" to="Actividades ejecutadas por demanda o requerimiento especial del proyecto"/>
+    </change>
+    <change idref="t4122" to="t4120" to-position="1" resolved="yes">
+      <change idref="t4122" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4122" attribute="title" type="string" to="Actividades accidentales"/>
+    </change>
+    <change idref="t4131" to="t4130" to-position="0" resolved="yes">
+      <change idref="t4131" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4131" attribute="title" type="string" to="Utilidades para comisionamiento"/>
+    </change>
+    <change idref="t4132" to="t4130" to-position="1" resolved="yes">
+      <change idref="t4132" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4132" attribute="title" type="string" to="Utilidades primarias"/>
+    </change>
+    <change idref="t2241" to="t2240" to-position="0" resolved="yes">
+      <change idref="t2241" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2241" attribute="title" type="string" to="Equipos y sistemas de transporte"/>
+    </change>
+    <change idref="t2242" to="t2240" to-position="1" resolved="yes">
+      <change idref="t2242" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2242" attribute="title" type="string" to="Sistemas de bombeo/conducción"/>
+    </change>
+    <change idref="t2243" to="t2240" to-position="2" resolved="yes">
+      <change idref="t2243" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2243" attribute="title" type="string" to="Sistemas de ventilación"/>
+    </change>
+    <change idref="t2244" to="t2240" to-position="3" resolved="yes">
+      <change idref="t2244" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2244" attribute="title" type="string" to="Otros sistemas mecánicos"/>
+    </change>
+    <change idref="t1611" to="t1610" to-position="0" resolved="yes">
+      <change idref="t1611" attribute="resourceLeveledDate" type="date" to="2001-01-08T19:00:00.000Z"/>
+      <change idref="t1611" attribute="title" type="string" to="Programa de obra"/>
+    </change>
+    <change idref="t1612" to="t1610" to-position="1" resolved="yes">
+      <change idref="t1612" attribute="resourceLeveledDate" type="date" to="2001-01-08T19:00:00.000Z"/>
+      <change idref="t1612" attribute="title" type="string" to="Presupuesto general de obra"/>
+    </change>
+    <change idref="t1613" to="t1610" to-position="2" resolved="yes">
+      <change idref="t1613" attribute="resourceLeveledDate" type="date" to="2001-01-08T19:00:00.000Z"/>
+      <change idref="t1613" attribute="title" type="string" to="Sistema de gestión integral de obra"/>
+    </change>
+    <change idref="t4141" to="t4140" to-position="0" resolved="yes">
+      <change idref="t4141" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4141" attribute="title" type="string" to="Seguros y garantías para el proyecto"/>
+    </change>
+    <change idref="t4142" to="t4140" to-position="1" resolved="yes">
+      <change idref="t4142" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4142" attribute="title" type="string" to="Gastos tributarios, legales y de representación"/>
+    </change>
+    <change idref="t2251" to="t2250" to-position="0" resolved="yes">
+      <change idref="t2251" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2251" attribute="title" type="string" to="Sistemas de generación energética"/>
+    </change>
+    <change idref="t2252" to="t2250" to-position="1" resolved="yes">
+      <change idref="t2252" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2252" attribute="title" type="string" to="Sistemas de interconexión energética"/>
+    </change>
+    <change idref="t2253" to="t2250" to-position="2" resolved="yes">
+      <change idref="t2253" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2253" attribute="title" type="string" to="Sistemas de distribución energética"/>
+    </change>
+    <change idref="t2254" to="t2250" to-position="3" resolved="yes">
+      <change idref="t2254" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2254" attribute="title" type="string" to="Sistemas de aterrizado de redes y protección eléctrica"/>
+    </change>
+    <change idref="t2255" to="t2250" to-position="4" resolved="yes">
+      <change idref="t2255" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2255" attribute="title" type="string" to="Sistemas y redes de telemática"/>
+    </change>
+    <change idref="t1621" to="t1620" to-position="0" resolved="yes">
+      <change idref="t1621" attribute="resourceLeveledDate" type="date" to="2001-01-08T19:00:00.000Z"/>
+      <change idref="t1621" attribute="title" type="string" to="Plan organizacional estratégico (POE)"/>
+    </change>
+    <change idref="t1622" to="t1620" to-position="1" resolved="yes">
+      <change idref="t1622" attribute="resourceLeveledDate" type="date" to="2001-01-08T19:00:00.000Z"/>
+      <change idref="t1622" attribute="title" type="string" to="Plan de gestión integral (PGI)"/>
+    </change>
+    <change idref="t2261" to="t2260" to-position="0" resolved="yes">
+      <change idref="t2261" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2261" attribute="title" type="string" to="Mamposterías arquitectónicas"/>
+    </change>
+    <change idref="t2262" to="t2260" to-position="1" resolved="yes">
+      <change idref="t2262" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2262" attribute="title" type="string" to="Construcción seca y carpintería"/>
+    </change>
+    <change idref="t2263" to="t2260" to-position="2" resolved="yes">
+      <change idref="t2263" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2263" attribute="title" type="string" to="Vidriería y cristalería"/>
+    </change>
+    <change idref="t2264" to="t2260" to-position="3" resolved="yes">
+      <change idref="t2264" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2264" attribute="title" type="string" to="Pinturas, recubrimientos y revestimientos"/>
+    </change>
+    <change idref="t2265" to="t2260" to-position="4" resolved="yes">
+      <change idref="t2265" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2265" attribute="title" type="string" to="Herrajería y ferretería"/>
+    </change>
+    <change idref="t2266" to="t2260" to-position="5" resolved="yes">
+      <change idref="t2266" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2266" attribute="title" type="string" to="Paisajismo y decoración"/>
+    </change>
+    <change idref="t1631" to="t1630" to-position="0" resolved="yes">
+      <change idref="t1631" attribute="resourceLeveledDate" type="date" to="2001-01-08T19:00:00.000Z"/>
+      <change idref="t1631" attribute="title" type="string" to="Análisis multidimensional de reintegración"/>
+    </change>
+    <change idref="t1632" to="t1630" to-position="1" resolved="yes">
+      <change idref="t1632" attribute="resourceLeveledDate" type="date" to="2001-01-08T19:00:00.000Z"/>
+      <change idref="t1632" attribute="title" type="string" to="Evaluación iSTATE-R"/>
+    </change>
+    <change idref="t1633" to="t1630" to-position="2" resolved="yes">
+      <change idref="t1633" attribute="resourceLeveledDate" type="date" to="2001-01-08T19:00:00.000Z"/>
+      <change idref="t1633" attribute="title" type="string" to="Plan general de reintegración (PRI)"/>
+    </change>
+    <change idref="t1001" to="t1000" to-position="0" resolved="yes">
+      <change idref="t1001" attribute="resourceLeveledDate" type="date" to="2001-01-01T11:00:00.000Z"/>
+      <change idref="t1001" attribute="title" type="string" to="Creación formal del proyecto"/>
+    </change>
+    <change idref="t2271" to="t2270" to-position="0" resolved="yes">
+      <change idref="t2271" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2271" attribute="title" type="string" to="Obras para prevención, manejo y control de riesgos catastróficos"/>
+    </change>
+    <change idref="t2272" to="t2270" to-position="1" resolved="yes">
+      <change idref="t2272" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2272" attribute="title" type="string" to="Otros trabajos y partidas en la construcción de edificaciones"/>
+    </change>
+    <change idref="t2310" to="t2300" to-position="0" resolved="yes">
+      <change idref="t2310" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2310" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2310" attribute="title" type="string" to="Obras preliminares y provisionales"/>
+    </change>
+    <change idref="t2320" to="t2300" to-position="1" resolved="yes">
+      <change idref="t2320" attribute="internalPrerequisitesString" type="string" from="" to="2310SS"/>
+      <change idref="t2320" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2320" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2320" attribute="title" type="string" to="Obras para estructuras"/>
+    </change>
+    <change idref="t2330" to="t2300" to-position="2" resolved="yes">
+      <change idref="t2330" attribute="internalPrerequisitesString" type="string" from="" to="2320SS"/>
+      <change idref="t2330" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2330" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2330" attribute="title" type="string" to="Obras para redes de soporte"/>
+    </change>
+    <change idref="t2340" to="t2300" to-position="3" resolved="yes">
+      <change idref="t2340" attribute="internalPrerequisitesString" type="string" from="" to="2330FS"/>
+      <change idref="t2340" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2340" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2340" attribute="title" type="string" to="Obras arquitectónicas"/>
+    </change>
+    <change idref="t2350" to="t2300" to-position="4" resolved="yes">
+      <change idref="t2350" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2350" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2350" attribute="title" type="string" to="Obras complementarias"/>
+    </change>
+    <change idref="t4210" to="t4200" to-position="0" resolved="yes">
+      <change idref="t4210" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4210" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4210" attribute="title" type="string" to="Culminación de actividades de producción"/>
+    </change>
+    <change idref="t4220" to="t4200" to-position="1" resolved="yes">
+      <change idref="t4220" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4220" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4220" attribute="title" type="string" to="Culminación de actividades de comercialización"/>
+    </change>
+    <change idref="t4230" to="t4200" to-position="2" resolved="yes">
+      <change idref="t4230" attribute="internalPrerequisitesString" type="string" from="" to="4100FS"/>
+      <change idref="t4230" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4230" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4230" attribute="title" type="string" to="Culminación de actividades de administración"/>
+    </change>
+    <change idref="t2311" to="t2310" to-position="0" resolved="yes">
+      <change idref="t2311" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2311" attribute="title" type="string" to="Construcciones provisionales"/>
+    </change>
+    <change idref="t2312" to="t2310" to-position="1" resolved="yes">
+      <change idref="t2312" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2312" attribute="title" type="string" to="Instalaciones provisionales"/>
+    </change>
+    <change idref="t2313" to="t2310" to-position="2" resolved="yes">
+      <change idref="t2313" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2313" attribute="title" type="string" to="Logística y traslados en obra"/>
+    </change>
+    <change idref="t2314" to="t2310" to-position="3" resolved="yes">
+      <change idref="t2314" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2314" attribute="title" type="string" to="Localización y replanteo"/>
+    </change>
+    <change idref="t2315" to="t2310" to-position="4" resolved="yes">
+      <change idref="t2315" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2315" attribute="title" type="string" to="Apuntalamientos temporales"/>
+    </change>
+    <change idref="t4211" to="t4210" to-position="0" resolved="yes">
+      <change idref="t4211" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4211" attribute="title" type="string" to="Terminación de contratos para suministro de materias primas"/>
+    </change>
+    <change idref="t4212" to="t4210" to-position="1" resolved="yes">
+      <change idref="t4212" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4212" attribute="title" type="string" to="Terminación de contratos con trabajadores y colaboradores"/>
+    </change>
+    <change idref="t4213" to="t4210" to-position="2" resolved="yes">
+      <change idref="t4213" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4213" attribute="title" type="string" to="Terminación de contratos para uso de equipos y maquinaria"/>
+    </change>
+    <change idref="t2321" to="t2320" to-position="0" resolved="yes">
+      <change idref="t2321" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2321" attribute="title" type="string" to="Estructuras en madera"/>
+    </change>
+    <change idref="t2322" to="t2320" to-position="1" resolved="yes">
+      <change idref="t2322" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2322" attribute="title" type="string" to="Estructuras metálicas"/>
+    </change>
+    <change idref="t2323" to="t2320" to-position="2" resolved="yes">
+      <change idref="t2323" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2323" attribute="title" type="string" to="Estructuras en concreto"/>
+    </change>
+    <change idref="t2324" to="t2320" to-position="3" resolved="yes">
+      <change idref="t2324" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2324" attribute="title" type="string" to="Otros componentes, sistemas y materiales estructurales"/>
+    </change>
+    <change idref="t4221" to="t4220" to-position="0" resolved="yes">
+      <change idref="t4221" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4221" attribute="title" type="string" to="Terminación de contratos para compras"/>
+    </change>
+    <change idref="t4222" to="t4220" to-position="1" resolved="yes">
+      <change idref="t4222" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4222" attribute="title" type="string" to="Terminación de contratos para ventas"/>
+    </change>
+    <change idref="t4223" to="t4220" to-position="2" resolved="yes">
+      <change idref="t4223" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4223" attribute="title" type="string" to="Terminación de contratos para distribuciones"/>
+    </change>
+    <change idref="t4224" to="t4220" to-position="3" resolved="yes">
+      <change idref="t4224" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t4224" attribute="title" type="string" to="Terminación de contratos para soporte a la comercialización"/>
+    </change>
+    <change idref="t2331" to="t2330" to-position="0" resolved="yes">
+      <change idref="t2331" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2331" attribute="title" type="string" to="Redes hidráulicas"/>
+    </change>
+    <change idref="t2332" to="t2330" to-position="1" resolved="yes">
+      <change idref="t2332" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2332" attribute="title" type="string" to="Redes mecánicas"/>
+    </change>
+    <change idref="t2333" to="t2330" to-position="2" resolved="yes">
+      <change idref="t2333" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2333" attribute="title" type="string" to="Redes energéticas"/>
+    </change>
+    <change idref="t2334" to="t2330" to-position="3" resolved="yes">
+      <change idref="t2334" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2334" attribute="title" type="string" to="Otras redes complementarias"/>
+    </change>
+    <change idref="t4231" to="t4230" to-position="0" resolved="yes">
+      <change idref="t4231" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t4231" attribute="title" type="string" to="Terminación de contratos para servicios generales"/>
+    </change>
+    <change idref="t4232" to="t4230" to-position="1" resolved="yes">
+      <change idref="t4232" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t4232" attribute="title" type="string" to="Terminación de contratos para servicios especiales, servicios profesionales de consultorías y auditorías empresariales"/>
+    </change>
+    <change idref="t4233" to="t4230" to-position="2" resolved="yes">
+      <change idref="t4233" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t4233" attribute="title" type="string" to="Cierre del sistema de gestión integral"/>
+    </change>
+    <change idref="t2341" to="t2340" to-position="0" resolved="yes">
+      <change idref="t2341" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t2341" attribute="title" type="string" to="Armazones y armaduras"/>
+    </change>
+    <change idref="t2342" to="t2340" to-position="1" resolved="yes">
+      <change idref="t2342" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t2342" attribute="title" type="string" to="Vidriería y cristalería"/>
+    </change>
+    <change idref="t2343" to="t2340" to-position="2" resolved="yes">
+      <change idref="t2343" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t2343" attribute="title" type="string" to="Pinturas, recubrimientos y revestimientos"/>
+    </change>
+    <change idref="t2344" to="t2340" to-position="3" resolved="yes">
+      <change idref="t2344" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t2344" attribute="title" type="string" to="Herrajería y ferretería"/>
+    </change>
+    <change idref="t2345" to="t2340" to-position="4" resolved="yes">
+      <change idref="t2345" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t2345" attribute="title" type="string" to="Otros componentes, sistemas y materiales arquitectónicos"/>
+    </change>
+    <change idref="t2351" to="t2350" to-position="0" resolved="yes">
+      <change idref="t2351" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2351" attribute="title" type="string" to="Obras de prevención, manejo y control de riesgos catastróficos"/>
+    </change>
+    <change idref="t2352" to="t2350" to-position="1" resolved="yes">
+      <change idref="t2352" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2352" attribute="title" type="string" to="Otros trabajos y partidas en la construcción de maquinaria"/>
+    </change>
+    <change idref="t1110" to="t1100" to-position="0" resolved="yes">
+      <change idref="t1110" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1110" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1110" attribute="title" type="string" to="(A) Generalidades en el proyecto"/>
+    </change>
+    <change idref="t1120" to="t1100" to-position="1" resolved="yes">
+      <change idref="t1120" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1120" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1120" attribute="title" type="string" to="(I) Actividades imprevistas"/>
+    </change>
+    <change idref="t1130" to="t1100" to-position="2" resolved="yes">
+      <change idref="t1130" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1130" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1130" attribute="title" type="string" to="(U) Distribución de utilidades"/>
+    </change>
+    <change idref="t1140" to="t1100" to-position="3" resolved="yes">
+      <change idref="t1140" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1140" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1140" attribute="title" type="string" to="(+)  Garantías y tributos"/>
+    </change>
+    <change idref="t3001" to="t3000" to-position="0" resolved="yes">
+      <change idref="t3001" attribute="resourceLeveledDate" type="date" to="2001-01-01T11:00:00.000Z"/>
+      <change idref="t3001" attribute="title" type="string" to="Creación formal de la operación"/>
+    </change>
+    <change idref="t1111" to="t1110" to-position="0" resolved="yes">
+      <change idref="t1111" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1111" attribute="title" type="string" to="Propiedades y bienes en general"/>
+    </change>
+    <change idref="t1112" to="t1110" to-position="1" resolved="yes">
+      <change idref="t1112" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1112" attribute="title" type="string" to="Servicios generales"/>
+    </change>
+    <change idref="t1113" to="t1110" to-position="2" resolved="yes">
+      <change idref="t1113" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1113" attribute="title" type="string" to="Servicios especiales de soporte a la planeación"/>
+    </change>
+    <change idref="t1114" to="t1110" to-position="3" resolved="yes">
+      <change idref="t1114" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1114" attribute="title" type="string" to="Sistema de gestión integral (SGI)"/>
+    </change>
+    <change idref="t1115" to="t1110" to-position="4" resolved="yes">
+      <change idref="t1115" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1115" attribute="title" type="string" to="Supervisión de proyecto"/>
+    </change>
+    <change idref="t1116" to="t1110" to-position="5" resolved="yes">
+      <change idref="t1116" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1116" attribute="title" type="string" to="Interventoría de proyecto"/>
+    </change>
+    <change idref="t1121" to="t1120" to-position="0" resolved="yes">
+      <change idref="t1121" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1121" attribute="title" type="string" to="Actividades ejecutadas por demanda o requerimiento especial del proyecto"/>
+    </change>
+    <change idref="t1122" to="t1120" to-position="1" resolved="yes">
+      <change idref="t1122" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1122" attribute="title" type="string" to="Actividades accidentales"/>
+    </change>
+    <change idref="t1131" to="t1130" to-position="0" resolved="yes">
+      <change idref="t1131" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1131" attribute="title" type="string" to="Utilidades para comisionamiento"/>
+    </change>
+    <change idref="t1132" to="t1130" to-position="1" resolved="yes">
+      <change idref="t1132" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1132" attribute="title" type="string" to="Utilidades primarias"/>
+    </change>
+    <change idref="t2410" to="t2400" to-position="0" resolved="yes">
+      <change idref="t2410" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2410" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2410" attribute="title" type="string" to="Pre-producción"/>
+    </change>
+    <change idref="t2420" to="t2400" to-position="1" resolved="yes">
+      <change idref="t2420" attribute="internalPrerequisitesString" type="string" from="" to="2410FS"/>
+      <change idref="t2420" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2420" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2420" attribute="title" type="string" to="Producción"/>
+    </change>
+    <change idref="t2430" to="t2400" to-position="2" resolved="yes">
+      <change idref="t2430" attribute="internalPrerequisitesString" type="string" from="" to="2420FS"/>
+      <change idref="t2430" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2430" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2430" attribute="title" type="string" to="Post-producción"/>
+    </change>
+    <change idref="t2440" to="t2400" to-position="3" resolved="yes">
+      <change idref="t2440" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t2440" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t2440" attribute="title" type="string" to="Obras complementarias"/>
+    </change>
+    <change idref="t1141" to="t1140" to-position="0" resolved="yes">
+      <change idref="t1141" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1141" attribute="title" type="string" to="Seguros y garantías para el proyecto"/>
+    </change>
+    <change idref="t1142" to="t1140" to-position="1" resolved="yes">
+      <change idref="t1142" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1142" attribute="title" type="string" to="Gastos tributarios, legales y de representación"/>
+    </change>
+    <change idref="t4310" to="t4300" to-position="0" resolved="yes">
+      <change idref="t4310" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4310" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4310" attribute="title" type="string" to="Liquidación del proyecto"/>
+    </change>
+    <change idref="t4320" to="t4300" to-position="1" resolved="yes">
+      <change idref="t4320" attribute="internalPrerequisitesString" type="string" from="" to="4310FS"/>
+      <change idref="t4320" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4320" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4320" attribute="title" type="string" to="Restitución multidimensional"/>
+    </change>
+    <change idref="t4330" to="t4300" to-position="2" resolved="yes">
+      <change idref="t4330" attribute="internalPrerequisitesString" type="string" from="" to="4320FS"/>
+      <change idref="t4330" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4330" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4330" attribute="title" type="string" to="Cierre contable general"/>
+    </change>
+    <change idref="t2411" to="t2410" to-position="0" resolved="yes">
+      <change idref="t2411" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2411" attribute="title" type="string" to="Preparaciones locativas"/>
+    </change>
+    <change idref="t2412" to="t2410" to-position="1" resolved="yes">
+      <change idref="t2412" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2412" attribute="title" type="string" to="Preparación de procesos"/>
+    </change>
+    <change idref="t2413" to="t2410" to-position="2" resolved="yes">
+      <change idref="t2413" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2413" attribute="title" type="string" to="Preparación de sistemas TI"/>
+    </change>
+    <change idref="t2414" to="t2410" to-position="3" resolved="yes">
+      <change idref="t2414" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2414" attribute="title" type="string" to="Preparación de recursos"/>
+    </change>
+    <change idref="t4311" to="t4310" to-position="0" resolved="yes">
+      <change idref="t4311" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t4311" attribute="title" type="string" to="Deconstrucción del proyecto"/>
+    </change>
+    <change idref="t4312" to="t4310" to-position="1" resolved="yes">
+      <change idref="t4312" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t4312" attribute="title" type="string" to="Inventariado de recursos"/>
+    </change>
+    <change idref="t4313" to="t4310" to-position="2" resolved="yes">
+      <change idref="t4313" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t4313" attribute="title" type="string" to="Venta de bienes tangibles"/>
+    </change>
+    <change idref="t4314" to="t4310" to-position="3" resolved="yes">
+      <change idref="t4314" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t4314" attribute="title" type="string" to="Venta de bienes intangibles"/>
+    </change>
+    <change idref="t2421" to="t2420" to-position="0" resolved="yes">
+      <change idref="t2421" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t2421" attribute="title" type="string" to="Desarrollos funcionales"/>
+    </change>
+    <change idref="t2422" to="t2420" to-position="1" resolved="yes">
+      <change idref="t2422" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t2422" attribute="title" type="string" to="Desarrollos artísticos"/>
+    </change>
+    <change idref="t2423" to="t2420" to-position="2" resolved="yes">
+      <change idref="t2423" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t2423" attribute="title" type="string" to="Desarrollos técnicos"/>
+    </change>
+    <change idref="t2424" to="t2420" to-position="3" resolved="yes">
+      <change idref="t2424" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t2424" attribute="title" type="string" to="Trabajos complementarios"/>
+    </change>
+    <change idref="t4321" to="t4320" to-position="0" resolved="yes">
+      <change idref="t4321" attribute="resourceLeveledDate" type="date" to="2001-01-03T11:00:00.000Z"/>
+      <change idref="t4321" attribute="title" type="string" to="Reintegración Social"/>
+    </change>
+    <change idref="t4322" to="t4320" to-position="1" resolved="yes">
+      <change idref="t4322" attribute="resourceLeveledDate" type="date" to="2001-01-03T11:00:00.000Z"/>
+      <change idref="t4322" attribute="title" type="string" to="Reintegración Comercial"/>
+    </change>
+    <change idref="t4323" to="t4320" to-position="2" resolved="yes">
+      <change idref="t4323" attribute="resourceLeveledDate" type="date" to="2001-01-03T11:00:00.000Z"/>
+      <change idref="t4323" attribute="title" type="string" to="Reintegración Jurídica"/>
+    </change>
+    <change idref="t4324" to="t4320" to-position="3" resolved="yes">
+      <change idref="t4324" attribute="resourceLeveledDate" type="date" to="2001-01-03T11:00:00.000Z"/>
+      <change idref="t4324" attribute="title" type="string" to="Reintegración Organizacional"/>
+    </change>
+    <change idref="t4325" to="t4320" to-position="4" resolved="yes">
+      <change idref="t4325" attribute="resourceLeveledDate" type="date" to="2001-01-03T11:00:00.000Z"/>
+      <change idref="t4325" attribute="title" type="string" to="Reintegración Ambiental"/>
+    </change>
+    <change idref="t2431" to="t2430" to-position="0" resolved="yes">
+      <change idref="t2431" attribute="resourceLeveledDate" type="date" to="2001-01-03T11:00:00.000Z"/>
+      <change idref="t2431" attribute="title" type="string" to="Acabados funcionales"/>
+    </change>
+    <change idref="t2432" to="t2430" to-position="1" resolved="yes">
+      <change idref="t2432" attribute="resourceLeveledDate" type="date" to="2001-01-03T11:00:00.000Z"/>
+      <change idref="t2432" attribute="title" type="string" to="Acabados artísticos"/>
+    </change>
+    <change idref="t2433" to="t2430" to-position="2" resolved="yes">
+      <change idref="t2433" attribute="resourceLeveledDate" type="date" to="2001-01-03T11:00:00.000Z"/>
+      <change idref="t2433" attribute="title" type="string" to="Acabados técnicos"/>
+    </change>
+    <change idref="t2434" to="t2430" to-position="3" resolved="yes">
+      <change idref="t2434" attribute="resourceLeveledDate" type="date" to="2001-01-03T11:00:00.000Z"/>
+      <change idref="t2434" attribute="title" type="string" to="Alistamiento de productos"/>
+    </change>
+    <change idref="t4331" to="t4330" to-position="0" resolved="yes">
+      <change idref="t4331" attribute="resourceLeveledDate" type="date" to="2001-01-03T19:00:00.000Z"/>
+      <change idref="t4331" attribute="title" type="string" to="Consolidación de información"/>
+    </change>
+    <change idref="t4332" to="t4330" to-position="1" resolved="yes">
+      <change idref="t4332" attribute="internalPrerequisitesString" type="string" from="" to="4331FS"/>
+      <change idref="t4332" attribute="resourceLeveledDate" type="date" to="2001-01-04T15:00:00.000Z"/>
+      <change idref="t4332" attribute="title" type="string" to="Informe contable final"/>
+    </change>
+    <change idref="t2441" to="t2440" to-position="0" resolved="yes">
+      <change idref="t2441" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2441" attribute="title" type="string" to="Obras de prevención, manejo y control de riesgos catastróficos"/>
+    </change>
+    <change idref="t2442" to="t2440" to-position="1" resolved="yes">
+      <change idref="t2442" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t2442" attribute="title" type="string" to="Otros trabajos y partidas en la construcción de prototipos"/>
+    </change>
+    <change idref="t1210" to="t1200" to-position="0" resolved="yes">
+      <change idref="t1210" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1210" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1210" attribute="title" type="string" to="Estudios de viabilidad"/>
+    </change>
+    <change idref="t1220" to="t1200" to-position="1" resolved="yes">
+      <change idref="t1220" attribute="internalPrerequisitesString" type="string" from="" to="1210FS"/>
+      <change idref="t1220" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t1220" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t1220" attribute="title" type="string" to="Estudio de factibilidad"/>
+    </change>
+    <change idref="t3110" to="t3100" to-position="0" resolved="yes">
+      <change idref="t3110" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t3110" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t3110" attribute="title" type="string" to="Dirección administrativa"/>
+    </change>
+    <change idref="t3120" to="t3100" to-position="1" resolved="yes">
+      <change idref="t3120" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t3120" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t3120" attribute="title" type="string" to="Dirección económica"/>
+    </change>
+    <change idref="t3130" to="t3100" to-position="2" resolved="yes">
+      <change idref="t3130" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t3130" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t3130" attribute="title" type="string" to="Dirección técnico-operativa"/>
+    </change>
+    <change idref="t1211" to="t1210" to-position="0" resolved="yes">
+      <change idref="t1211" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1211" attribute="title" type="string" to="Estudio de mercado"/>
+    </change>
+    <change idref="t1212" to="t1210" to-position="1" resolved="yes">
+      <change idref="t1212" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1212" attribute="title" type="string" to="Estudio técnico preliminar"/>
+    </change>
+    <change idref="t1213" to="t1210" to-position="2" resolved="yes">
+      <change idref="t1213" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1213" attribute="title" type="string" to="Estudio de impactos ambientales"/>
+    </change>
+    <change idref="t1214" to="t1210" to-position="3" resolved="yes">
+      <change idref="t1214" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t1214" attribute="title" type="string" to="Estudio financiero preliminar"/>
+    </change>
+    <change idref="t1215" to="t1210" to-position="4" resolved="yes">
+      <change idref="t1215" attribute="internalPrerequisitesString" type="string" from="" to="1211FS, 1212FS, 1213FS, 1214FS"/>
+      <change idref="t1215" attribute="resourceLeveledDate" type="date" to="2001-01-02T15:00:00.000Z"/>
+      <change idref="t1215" attribute="title" type="string" to="Evaluación iSTATE-V"/>
+    </change>
+    <change idref="t3111" to="t3110" to-position="0" resolved="yes">
+      <change idref="t3111" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3111" attribute="title" type="string" to="Sistema de gestión integral (SGI)"/>
+    </change>
+    <change idref="t3112" to="t3110" to-position="1" resolved="yes">
+      <change idref="t3112" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3112" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3113" to="t3110" to-position="2" resolved="yes">
+      <change idref="t3113" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3113" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3114" to="t3110" to-position="3" resolved="yes">
+      <change idref="t3114" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3114" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3115" to="t3110" to-position="4" resolved="yes">
+      <change idref="t3115" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3115" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3116" to="t3110" to-position="5" resolved="yes">
+      <change idref="t3116" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3116" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3117" to="t3110" to-position="6" resolved="yes">
+      <change idref="t3117" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3117" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3118" to="t3110" to-position="7" resolved="yes">
+      <change idref="t3118" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3118" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t1221" to="t1220" to-position="0" resolved="yes">
+      <change idref="t1221" attribute="resourceLeveledDate" type="date" to="2001-01-03T11:00:00.000Z"/>
+      <change idref="t1221" attribute="title" type="string" to="Análisis global de riesgos"/>
+    </change>
+    <change idref="t1222" to="t1220" to-position="1" resolved="yes">
+      <change idref="t1222" attribute="internalPrerequisitesString" type="string" from="" to="1221FS"/>
+      <change idref="t1222" attribute="resourceLeveledDate" type="date" to="2001-01-03T19:00:00.000Z"/>
+      <change idref="t1222" attribute="title" type="string" to="Análisis multidimensional de factibilidad"/>
+    </change>
+    <change idref="t1223" to="t1220" to-position="2" resolved="yes">
+      <change idref="t1223" attribute="internalPrerequisitesString" type="string" from="" to="1222FS"/>
+      <change idref="t1223" attribute="resourceLeveledDate" type="date" to="2001-01-04T15:00:00.000Z"/>
+      <change idref="t1223" attribute="title" type="string" to="Evaluación iSTATE-F"/>
+    </change>
+    <change idref="t3121" to="t3120" to-position="0" resolved="yes">
+      <change idref="t3121" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3121" attribute="title" type="string" to="Gestión de utilidades"/>
+    </change>
+    <change idref="t3122" to="t3120" to-position="1" resolved="yes">
+      <change idref="t3122" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3122" attribute="title" type="string" to="Gestión de inversiones"/>
+    </change>
+    <change idref="t3123" to="t3120" to-position="2" resolved="yes">
+      <change idref="t3123" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3123" attribute="title" type="string" to="Gestión de seguros y garantías"/>
+    </change>
+    <change idref="t3124" to="t3120" to-position="3" resolved="yes">
+      <change idref="t3124" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3124" attribute="title" type="string" to="Gestión tributaria, legal y de representación"/>
+    </change>
+    <change idref="t3131" to="t3130" to-position="0" resolved="yes">
+      <change idref="t3131" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3131" attribute="title" type="string" to="Coordinación de recursos y tecnologías"/>
+    </change>
+    <change idref="t3132" to="t3130" to-position="1" resolved="yes">
+      <change idref="t3132" attribute="resourceLeveledDate" type="date" to="2001-01-01T19:00:00.000Z"/>
+      <change idref="t3132" attribute="title" type="string" to="Coordinación de procesos y operaciones"/>
+    </change>
+    <change idref="t4410" to="t4400" to-position="0" resolved="yes">
+      <change idref="t4410" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4410" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4410" attribute="title" type="string" to="Documentación final"/>
+    </change>
+    <change idref="t4420" to="t4400" to-position="1" resolved="yes">
+      <change idref="t4420" attribute="internalPrerequisitesString" type="string" from="" to="4411FS"/>
+      <change idref="t4420" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t4420" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t4420" attribute="title" type="string" to="Revisión y evaluación privada"/>
+    </change>
+    <change idref="t4411" to="t4410" to-position="0" resolved="yes">
+      <change idref="t4411" attribute="resourceLeveledDate" type="date" to="2001-01-05T11:00:00.000Z"/>
+      <change idref="t4411" attribute="title" type="string" to="Consolidación de archivo documental del proyecto"/>
+    </change>
+    <change idref="t4412" to="t4410" to-position="1" resolved="yes">
+      <change idref="t4412" attribute="internalPrerequisitesString" type="string" from="" to="4411FS"/>
+      <change idref="t4412" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t4412" attribute="title" type="string" to="Presentación documental ante las autoridades competentes"/>
+    </change>
+    <change idref="t4421" to="t4420" to-position="0" resolved="yes">
+      <change idref="t4421" attribute="resourceLeveledDate" type="date" to="2001-01-05T19:00:00.000Z"/>
+      <change idref="t4421" attribute="title" type="string" to="Análisis multidimensional de cumplimiento del proyecto"/>
+    </change>
+    <change idref="t4422" to="t4420" to-position="1" resolved="yes">
+      <change idref="t4422" attribute="internalPrerequisitesString" type="string" from="" to="4421FS"/>
+      <change idref="t4422" attribute="resourceLeveledDate" type="date" to="2001-01-06T15:00:00.000Z"/>
+      <change idref="t4422" attribute="title" type="string" to="Evaluación iSTATE-C"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="Juan Torres" date="2023-11-28T21:08:47.253Z" timestamp="2023-11-28T21:08:47.253Z">
+    <change idref="t3100" attribute="title" type="string" from="Gerencia general de operaciones" to="Gerencia general" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Juan Torres" date="2023-11-28T21:18:14.956Z" timestamp="2023-11-28T21:18:14.956Z">
+    <change idref="t2" attribute="internalPrerequisitesString" type="string" from="" to="9991FS" resolved="yes"/>
+    <change idref="t3" attribute="internalPrerequisitesString" type="string" from="" to="9992FS" resolved="yes"/>
+    <change idref="t4" attribute="internalPrerequisitesString" type="string" from="" to="9993FS" resolved="yes"/>
+    <change idref="t2001" attribute="resourceLeveledDate" type="date" from="2001-01-01T11:00:00.000Z" to="2001-01-09T15:00:00.000Z" resolved="yes"/>
+    <change idref="t2111" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2112" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2113" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2114" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2115" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2116" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2121" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2122" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2131" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2132" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2141" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2142" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2211" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2212" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2213" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2214" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2215" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2216" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2217" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2218" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2221" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2222" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2223" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2224" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2225" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2226" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2227" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2228" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2229" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2231" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2232" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2233" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2241" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2242" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2243" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2244" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2251" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2252" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2253" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2254" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2255" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2261" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2262" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2263" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2264" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2265" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2266" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2271" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2272" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2311" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2312" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2313" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2314" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2315" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2321" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2322" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2323" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2324" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2331" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2332" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2333" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2334" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2341" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-10T19:00:00.000Z" resolved="yes"/>
+    <change idref="t2342" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-10T19:00:00.000Z" resolved="yes"/>
+    <change idref="t2343" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-10T19:00:00.000Z" resolved="yes"/>
+    <change idref="t2344" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-10T19:00:00.000Z" resolved="yes"/>
+    <change idref="t2345" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-10T19:00:00.000Z" resolved="yes"/>
+    <change idref="t2351" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2352" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2411" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2412" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2413" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2414" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2421" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-10T19:00:00.000Z" resolved="yes"/>
+    <change idref="t2422" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-10T19:00:00.000Z" resolved="yes"/>
+    <change idref="t2423" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-10T19:00:00.000Z" resolved="yes"/>
+    <change idref="t2424" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-10T19:00:00.000Z" resolved="yes"/>
+    <change idref="t2431" attribute="resourceLeveledDate" type="date" from="2001-01-03T11:00:00.000Z" to="2001-01-11T15:00:00.000Z" resolved="yes"/>
+    <change idref="t2432" attribute="resourceLeveledDate" type="date" from="2001-01-03T11:00:00.000Z" to="2001-01-11T15:00:00.000Z" resolved="yes"/>
+    <change idref="t2433" attribute="resourceLeveledDate" type="date" from="2001-01-03T11:00:00.000Z" to="2001-01-11T15:00:00.000Z" resolved="yes"/>
+    <change idref="t2434" attribute="resourceLeveledDate" type="date" from="2001-01-03T11:00:00.000Z" to="2001-01-11T15:00:00.000Z" resolved="yes"/>
+    <change idref="t2441" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t2442" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t3001" attribute="resourceLeveledDate" type="date" from="2001-01-01T11:00:00.000Z" to="2001-01-12T11:00:00.000Z" resolved="yes"/>
+    <change idref="t3111" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3112" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3113" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3114" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3115" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3116" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3117" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3118" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3121" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3122" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3123" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3124" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3131" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t3132" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-12T19:00:00.000Z" resolved="yes"/>
+    <change idref="t4001" attribute="resourceLeveledDate" type="date" from="2001-01-01T11:00:00.000Z" to="2001-01-13T15:00:00.000Z" resolved="yes"/>
+    <change idref="t4111" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4112" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4113" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4114" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4115" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4121" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4122" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4131" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4132" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4141" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4142" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4211" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4212" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4213" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4221" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4222" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4223" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4224" attribute="resourceLeveledDate" type="date" from="2001-01-01T19:00:00.000Z" to="2001-01-15T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4231" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-15T19:00:00.000Z" resolved="yes"/>
+    <change idref="t4232" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-15T19:00:00.000Z" resolved="yes"/>
+    <change idref="t4233" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-15T19:00:00.000Z" resolved="yes"/>
+    <change idref="t4311" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-15T19:00:00.000Z" resolved="yes"/>
+    <change idref="t4312" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-15T19:00:00.000Z" resolved="yes"/>
+    <change idref="t4313" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-15T19:00:00.000Z" resolved="yes"/>
+    <change idref="t4314" attribute="resourceLeveledDate" type="date" from="2001-01-02T15:00:00.000Z" to="2001-01-15T19:00:00.000Z" resolved="yes"/>
+    <change idref="t4321" attribute="resourceLeveledDate" type="date" from="2001-01-03T11:00:00.000Z" to="2001-01-16T15:00:00.000Z" resolved="yes"/>
+    <change idref="t4322" attribute="resourceLeveledDate" type="date" from="2001-01-03T11:00:00.000Z" to="2001-01-16T15:00:00.000Z" resolved="yes"/>
+    <change idref="t4323" attribute="resourceLeveledDate" type="date" from="2001-01-03T11:00:00.000Z" to="2001-01-16T15:00:00.000Z" resolved="yes"/>
+    <change idref="t4324" attribute="resourceLeveledDate" type="date" from="2001-01-03T11:00:00.000Z" to="2001-01-16T15:00:00.000Z" resolved="yes"/>
+    <change idref="t4325" attribute="resourceLeveledDate" type="date" from="2001-01-03T11:00:00.000Z" to="2001-01-16T15:00:00.000Z" resolved="yes"/>
+    <change idref="t4331" attribute="resourceLeveledDate" type="date" from="2001-01-03T19:00:00.000Z" to="2001-01-17T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4332" attribute="resourceLeveledDate" type="date" from="2001-01-04T15:00:00.000Z" to="2001-01-17T19:00:00.000Z" resolved="yes"/>
+    <change idref="t4411" attribute="resourceLeveledDate" type="date" from="2001-01-05T11:00:00.000Z" to="2001-01-18T15:00:00.000Z" resolved="yes"/>
+    <change idref="t4412" attribute="resourceLeveledDate" type="date" from="2001-01-05T19:00:00.000Z" to="2001-01-19T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4421" attribute="resourceLeveledDate" type="date" from="2001-01-05T19:00:00.000Z" to="2001-01-19T11:00:00.000Z" resolved="yes"/>
+    <change idref="t4422" attribute="resourceLeveledDate" type="date" from="2001-01-06T15:00:00.000Z" to="2001-01-19T19:00:00.000Z" resolved="yes"/>
+    <change idref="t9991" attribute="internalPrerequisitesString" type="string" from="" to="1100FS, 1600FS" resolved="yes"/>
+    <change idref="t9991" attribute="resourceLeveledDate" type="date" from="2001-01-01T05:00:00.000Z" to="2001-01-09T15:00:00.000Z" resolved="yes"/>
+    <change idref="t9992" attribute="internalPrerequisitesString" type="string" from="" to="2100FS, 2200FS, 2300FS, 2400FS" resolved="yes"/>
+    <change idref="t9992" attribute="resourceLeveledDate" type="date" from="2001-01-01T05:00:00.000Z" to="2001-01-11T23:00:00.000Z" resolved="yes"/>
+    <change idref="t9993" attribute="internalPrerequisitesString" type="string" from="" to="3100FS" resolved="yes"/>
+    <change idref="t9993" attribute="resourceLeveledDate" type="date" from="2001-01-01T05:00:00.000Z" to="2001-01-13T15:00:00.000Z" resolved="yes"/>
+    <change idref="t9994" attribute="resourceLeveledDate" type="date" from="2001-01-06T23:00:00.000Z" to="2001-01-20T15:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Juan Torres" date="2023-11-29T14:20:11.135Z" timestamp="2023-11-29T14:20:11.135Z">
+    <change idref="t3111" attribute="title" type="string" from="Sistema de gestión integral (SGI)" to="Sistema general de gestión integral organizacional (SGI)" resolved="yes"/>
+    <change idref="t3112" attribute="title" type="string" from="" to="Sistema general de inspección y control organizacional (SIC)" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="Juan Torres" date="2023-11-30T03:43:35.707Z" timestamp="2023-11-30T03:43:35.707Z">
+    <change idref="t3118" from="t3110" from-position="7" resolved="yes">
+      <change idref="t3118" attribute="resourceLeveledDate" type="date" to="2001-01-12T19:00:00.000Z"/>
+      <change idref="t3118" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3117" from="t3110" from-position="6" resolved="yes">
+      <change idref="t3117" attribute="resourceLeveledDate" type="date" to="2001-01-12T19:00:00.000Z"/>
+      <change idref="t3117" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3116" from="t3110" from-position="5" resolved="yes">
+      <change idref="t3116" attribute="resourceLeveledDate" type="date" to="2001-01-12T19:00:00.000Z"/>
+      <change idref="t3116" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3115" from="t3110" from-position="4" resolved="yes">
+      <change idref="t3115" attribute="resourceLeveledDate" type="date" to="2001-01-12T19:00:00.000Z"/>
+      <change idref="t3115" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3114" from="t3110" from-position="3" resolved="yes">
+      <change idref="t3114" attribute="resourceLeveledDate" type="date" to="2001-01-12T19:00:00.000Z"/>
+      <change idref="t3114" attribute="title" type="string" to=""/>
+    </change>
+    <change idref="t3113" from="t3110" from-position="2" resolved="yes">
+      <change idref="t3113" attribute="resourceLeveledDate" type="date" to="2001-01-12T19:00:00.000Z"/>
+      <change idref="t3113" attribute="title" type="string" to=""/>
+    </change>
+  </task-change-set>
+</changelog>

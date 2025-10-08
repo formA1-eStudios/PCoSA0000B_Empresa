@@ -1,0 +1,1906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="kdB8OHyoJzb">
+  <granularity>hours</granularity>
+  <named-styles-proxy>
+    <named-style-proxy name="Pro_Equipos" id="kw5y5l9OLpZ"/>
+    <named-style-proxy name="Pro_Materiales" id="i_3CprjtnQe"/>
+  </named-styles-proxy>
+  <prototype-task>
+    <task id="t-2">
+      <title>Task 1</title>
+      <effort>28800</effort>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-3">
+      <title>Milestone 1</title>
+      <type>milestone</type>
+    </task>
+  </prototype-task>
+  <prototype-task>
+    <task id="t-4">
+      <title>Group 1</title>
+      <type>group</type>
+    </task>
+  </prototype-task>
+  <prototype-resource>
+    <resource id="r-2">
+      <name>Resource 1</name>
+      <type>Staff</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-3">
+      <name>Equipment 1</name>
+      <type>Equipment</type>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-4">
+      <name>Material 1</name>
+      <type>Material</type>
+      <units-available>0</units-available>
+      <efficiency>0</efficiency>
+    </resource>
+  </prototype-resource>
+  <prototype-resource>
+    <resource id="r-5">
+      <name>Group 1</name>
+      <type>Group</type>
+    </resource>
+  </prototype-resource>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <name/>
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="21600" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="21600" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="21600" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="21600" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="21600" end-time="64800"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday">
+        <time-span start-time="21600" end-time="64800"/>
+      </schedule-day>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+    </schedule>
+    <child-resource idref="r1"/>
+  </resource>
+  <resource id="r1">
+    <name>Resource 1</name>
+    <type>Staff</type>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t2"/>
+    <child-task idref="t3"/>
+    <child-task idref="t4"/>
+  </task>
+  <task id="t1">
+    <title>Planeación</title>
+    <type>group</type>
+    <child-task idref="t1000"/>
+    <child-task idref="t1100"/>
+    <child-task idref="t1200"/>
+    <child-task idref="t1300"/>
+    <child-task idref="t1400"/>
+    <child-task idref="t1500"/>
+    <child-task idref="t1600"/>
+    <child-task idref="t9991"/>
+    <note>
+      <text>
+        <p>
+          <run>
+            <style>
+              <value key="font-weight">9</value>
+            </style>
+            <lit>NOTA:</lit>
+          </run>
+          <run>
+            <lit> Incluye los elementos necesarios para el proyecto, según cada una de las categorías indicadas a continuación.</lit>
+          </run>
+        </p>
+      </text>
+    </note>
+  </task>
+  <task id="t2">
+    <title>Implementación</title>
+    <type>group</type>
+    <child-task idref="t2000"/>
+    <child-task idref="t2100"/>
+    <child-task idref="t2200"/>
+    <child-task idref="t2300"/>
+    <child-task idref="t2400"/>
+    <child-task idref="t9992"/>
+    <prerequisite-task idref="t9991"/>
+  </task>
+  <task id="t3">
+    <title>Ejecución / Operación</title>
+    <type>group</type>
+    <child-task idref="t3000"/>
+    <child-task idref="t3100"/>
+    <child-task idref="t9993"/>
+    <prerequisite-task idref="t9992"/>
+  </task>
+  <task id="t4">
+    <title>Reintegración</title>
+    <type>group</type>
+    <child-task idref="t4000"/>
+    <child-task idref="t4100"/>
+    <child-task idref="t4200"/>
+    <child-task idref="t4300"/>
+    <child-task idref="t4400"/>
+    <child-task idref="t9994"/>
+    <prerequisite-task idref="t9993"/>
+  </task>
+  <task id="t1000">
+    <title>Inicio de actividades</title>
+    <type>group</type>
+    <child-task idref="t1001"/>
+  </task>
+  <task id="t1001">
+    <title>Creación formal del proyecto</title>
+    <leveled-start>2001-01-01T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1100">
+    <title>Administración &amp; Gerencia (AIU+)</title>
+    <type>group</type>
+    <child-task idref="t1110"/>
+    <child-task idref="t1120"/>
+    <child-task idref="t1130"/>
+    <child-task idref="t1140"/>
+    <prerequisite-task idref="t1000"/>
+  </task>
+  <task id="t1110">
+    <title>(A) Generalidades en el proyecto</title>
+    <type>group</type>
+    <child-task idref="t1111"/>
+    <child-task idref="t1112"/>
+    <child-task idref="t1113"/>
+    <child-task idref="t1114"/>
+    <child-task idref="t1115"/>
+    <child-task idref="t1116"/>
+  </task>
+  <task id="t1111">
+    <title>Propiedades y bienes en general</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1112">
+    <title>Servicios generales</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1113">
+    <title>Servicios especiales de soporte a la planeación</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1114">
+    <title>Sistema de gestión integral (SGI)</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1115">
+    <title>Supervisión de proyecto</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1116">
+    <title>Interventoría de proyecto</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1120">
+    <title>(I) Actividades imprevistas</title>
+    <type>group</type>
+    <child-task idref="t1121"/>
+    <child-task idref="t1122"/>
+  </task>
+  <task id="t1121">
+    <title>Actividades ejecutadas por demanda o requerimiento especial del proyecto</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1122">
+    <title>Actividades accidentales</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1130">
+    <title>(U) Distribución de utilidades</title>
+    <type>group</type>
+    <child-task idref="t1131"/>
+    <child-task idref="t1132"/>
+  </task>
+  <task id="t1131">
+    <title>Utilidades para comisionamiento</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1132">
+    <title>Utilidades primarias</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1140">
+    <title>(+)  Garantías y tributos</title>
+    <type>group</type>
+    <child-task idref="t1141"/>
+    <child-task idref="t1142"/>
+  </task>
+  <task id="t1141">
+    <title>Seguros y garantías para el proyecto</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1142">
+    <title>Gastos tributarios, legales y de representación</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1200">
+    <title>Estudios fundamentales</title>
+    <type>group</type>
+    <child-task idref="t1210"/>
+    <child-task idref="t1220"/>
+    <prerequisite-task idref="t1000"/>
+  </task>
+  <task id="t1210">
+    <title>Estudios de viabilidad</title>
+    <type>group</type>
+    <child-task idref="t1211"/>
+    <child-task idref="t1212"/>
+    <child-task idref="t1213"/>
+    <child-task idref="t1214"/>
+    <child-task idref="t1215"/>
+  </task>
+  <task id="t1211">
+    <title>Estudio de mercado</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1212">
+    <title>Estudio técnico preliminar</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1213">
+    <title>Estudio de impactos ambientales</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1214">
+    <title>Estudio financiero preliminar</title>
+    <leveled-start>2001-01-01T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1215">
+    <title>Evaluación iSTATE-V</title>
+    <leveled-start>2001-01-02T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t1211"/>
+    <prerequisite-task idref="t1212"/>
+    <prerequisite-task idref="t1213"/>
+    <prerequisite-task idref="t1214"/>
+  </task>
+  <task id="t1220">
+    <title>Estudio de factibilidad</title>
+    <type>group</type>
+    <child-task idref="t1221"/>
+    <child-task idref="t1222"/>
+    <child-task idref="t1223"/>
+    <prerequisite-task idref="t1210"/>
+  </task>
+  <task id="t1221">
+    <title>Análisis global de riesgos</title>
+    <leveled-start>2001-01-03T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1222">
+    <title>Análisis multidimensional de factibilidad</title>
+    <leveled-start>2001-01-03T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t1221"/>
+  </task>
+  <task id="t1223">
+    <title>Evaluación iSTATE-F</title>
+    <leveled-start>2001-01-04T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t1222"/>
+  </task>
+  <task id="t1300">
+    <title>Diseños para edificaciones</title>
+    <type>group</type>
+    <child-task idref="t1310"/>
+    <child-task idref="t1320"/>
+    <child-task idref="t1330"/>
+    <child-task idref="t1340"/>
+    <prerequisite-task idref="t1200"/>
+  </task>
+  <task id="t1310">
+    <title>Estudios y diseños conceptuales</title>
+    <type>group</type>
+    <child-task idref="t1311"/>
+    <child-task idref="t1312"/>
+    <child-task idref="t1313"/>
+  </task>
+  <task id="t1311">
+    <title>Estudios ambientales</title>
+    <leveled-start>2001-01-05T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1312">
+    <title>Estudios arquitectónicos</title>
+    <leveled-start>2001-01-05T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1313">
+    <title>Estudios de infraestructura</title>
+    <leveled-start>2001-01-05T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1320">
+    <title>Estudios y diseños básicos</title>
+    <type>group</type>
+    <child-task idref="t1321"/>
+    <child-task idref="t1322"/>
+    <child-task idref="t1323"/>
+    <child-task idref="t1324"/>
+    <child-task idref="t1325"/>
+    <child-task idref="t1326"/>
+    <prerequisite-task idref="t1310"/>
+  </task>
+  <task id="t1321">
+    <title>Parámetros de desempeño ambiental</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1322">
+    <title>Diseños arquitectónicos</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1323">
+    <title>Diseños estructurales</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1324">
+    <title>Diseños de redes hidrosanitarias</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1325">
+    <title>Diseños de redes mecánicas</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1326">
+    <title>Diseños de redes energéticas</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1330">
+    <title>Estudios y diseños avanzados</title>
+    <type>group</type>
+    <child-task idref="t1331"/>
+    <child-task idref="t1332"/>
+    <child-task idref="t1333"/>
+    <child-task idref="t1334"/>
+    <child-task idref="t1335"/>
+    <child-task idref="t1336"/>
+    <prerequisite-task idref="t1320"/>
+  </task>
+  <task id="t1331">
+    <title>Diseños arquitectónicos</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1332">
+    <title>Diseños estructurales</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1333">
+    <title>Diseños de redes hidrosanitarias</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1334">
+    <title>Diseños de redes mecánicas</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1335">
+    <title>Diseños de redes energéticas</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1336">
+    <title>Diseños complementarios</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1340">
+    <title>Diseños constructivos</title>
+    <type>group</type>
+    <child-task idref="t1341"/>
+    <child-task idref="t1342"/>
+    <child-task idref="t1343"/>
+    <child-task idref="t1344"/>
+    <child-task idref="t1345"/>
+    <child-task idref="t1346"/>
+    <prerequisite-task idref="t1330"/>
+  </task>
+  <task id="t1341">
+    <title>Diseños arquitectónicos</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1342">
+    <title>Diseños estructurales</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1343">
+    <title>Diseños de redes hidrosanitarias</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1344">
+    <title>Diseños de redes mecánicas</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1345">
+    <title>Diseños de redes energéticas</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1346">
+    <title>Diseños complementarios</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1400">
+    <title>Diseños para maquinaria</title>
+    <type>group</type>
+    <child-task idref="t1410"/>
+    <child-task idref="t1420"/>
+    <child-task idref="t1430"/>
+    <child-task idref="t1440"/>
+    <prerequisite-task idref="t1200"/>
+  </task>
+  <task id="t1410">
+    <title>Estudios y diseños conceptuales</title>
+    <type>group</type>
+    <child-task idref="t1411"/>
+    <child-task idref="t1412"/>
+    <child-task idref="t1413"/>
+  </task>
+  <task id="t1411">
+    <title>Estudios ambientales</title>
+    <leveled-start>2001-01-05T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1412">
+    <title>Estudios arquitectónicos</title>
+    <leveled-start>2001-01-05T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1413">
+    <title>Estudios de infraestructura</title>
+    <leveled-start>2001-01-05T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1420">
+    <title>Estudios y diseños básicos</title>
+    <type>group</type>
+    <child-task idref="t1421"/>
+    <child-task idref="t1422"/>
+    <child-task idref="t1423"/>
+    <child-task idref="t1424"/>
+    <child-task idref="t1425"/>
+    <child-task idref="t1426"/>
+    <prerequisite-task idref="t1410"/>
+  </task>
+  <task id="t1421">
+    <title>Parámetros de desempeño ambiental</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1422">
+    <title>Diseños industriales</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1423">
+    <title>Diseños estructurales</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1424">
+    <title>Diseños de redes hidráulicas</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1425">
+    <title>Diseños de redes mecánicas</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1426">
+    <title>Diseños de redes energéticas</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1430">
+    <title>Estudios y diseños avanzados</title>
+    <type>group</type>
+    <child-task idref="t1431"/>
+    <child-task idref="t1432"/>
+    <child-task idref="t1433"/>
+    <child-task idref="t1434"/>
+    <child-task idref="t1435"/>
+    <child-task idref="t1436"/>
+    <prerequisite-task idref="t1420"/>
+  </task>
+  <task id="t1431">
+    <title>Diseños industriales</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1432">
+    <title>Diseños estructurales</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1433">
+    <title>Diseños de redes hidráulicas</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1434">
+    <title>Diseños de redes mecánicas</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1435">
+    <title>Diseños de redes energéticas</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1436">
+    <title>Diseños complementarios</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1440">
+    <title>Diseños constructivos</title>
+    <type>group</type>
+    <child-task idref="t1441"/>
+    <child-task idref="t1442"/>
+    <child-task idref="t1443"/>
+    <child-task idref="t1444"/>
+    <child-task idref="t1445"/>
+    <child-task idref="t1446"/>
+    <prerequisite-task idref="t1430"/>
+  </task>
+  <task id="t1441">
+    <title>Diseños industriales</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1442">
+    <title>Diseños estructurales</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1443">
+    <title>Diseños de redes hidráulicas</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1444">
+    <title>Diseños de redes mecánicas</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1445">
+    <title>Diseños de redes energéticas</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1446">
+    <title>Diseños complementarios</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1500">
+    <title>Diseños para intangibles</title>
+    <type>group</type>
+    <child-task idref="t1510"/>
+    <child-task idref="t1520"/>
+    <child-task idref="t1530"/>
+    <child-task idref="t1540"/>
+    <prerequisite-task idref="t1200"/>
+  </task>
+  <task id="t1510">
+    <title>Estudios y diseños conceptuales</title>
+    <type>group</type>
+    <child-task idref="t1511"/>
+    <child-task idref="t1512"/>
+    <child-task idref="t1513"/>
+  </task>
+  <task id="t1511">
+    <title>Estudios ambientales</title>
+    <leveled-start>2001-01-05T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1512">
+    <title>Estudios arquitectónicos</title>
+    <leveled-start>2001-01-05T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1513">
+    <title>Estudios de infraestructura</title>
+    <leveled-start>2001-01-05T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1520">
+    <title>Estudios y diseños básicos</title>
+    <type>group</type>
+    <child-task idref="t1521"/>
+    <child-task idref="t1522"/>
+    <child-task idref="t1523"/>
+    <prerequisite-task idref="t1510"/>
+  </task>
+  <task id="t1521">
+    <title>Diseños para pre-producción</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1522">
+    <title>Diseños para producción</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1523">
+    <title>Diseños para post-producción</title>
+    <leveled-start>2001-01-05T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1530">
+    <title>Estudios y diseños avanzados</title>
+    <type>group</type>
+    <child-task idref="t1531"/>
+    <child-task idref="t1532"/>
+    <child-task idref="t1533"/>
+    <child-task idref="t1534"/>
+    <child-task idref="t1535"/>
+    <child-task idref="t1536"/>
+    <prerequisite-task idref="t1520"/>
+  </task>
+  <task id="t1531">
+    <title>Diseños para pre-producción</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1532">
+    <title>Diseños para producción funcional</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1533">
+    <title>Diseños para producción artística</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1534">
+    <title>Diseños para producción técnica</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1535">
+    <title>Diseños para post-producción</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1536">
+    <title>Diseños complementarios</title>
+    <leveled-start>2001-01-06T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1540">
+    <title>Diseños constructivos</title>
+    <type>group</type>
+    <child-task idref="t1541"/>
+    <child-task idref="t1542"/>
+    <child-task idref="t1543"/>
+    <child-task idref="t1544"/>
+    <child-task idref="t1545"/>
+    <child-task idref="t1546"/>
+    <prerequisite-task idref="t1530"/>
+  </task>
+  <task id="t1541">
+    <title>Diseños para pre-producción</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1542">
+    <title>Diseños para producción funcional</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1543">
+    <title>Diseños para producción artística</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1544">
+    <title>Diseños para producción técnica</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1545">
+    <title>Diseños para post-producción</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1546">
+    <title>Diseños complementarios</title>
+    <leveled-start>2001-01-08T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1600">
+    <title>Estudios finales</title>
+    <type>group</type>
+    <child-task idref="t1610"/>
+    <child-task idref="t1620"/>
+    <child-task idref="t1630"/>
+    <prerequisite-task idref="t1300"/>
+    <prerequisite-task idref="t1400"/>
+    <prerequisite-task idref="t1500"/>
+  </task>
+  <task id="t1610">
+    <title>Estudios para la implementación</title>
+    <type>group</type>
+    <child-task idref="t1611"/>
+    <child-task idref="t1612"/>
+    <child-task idref="t1613"/>
+  </task>
+  <task id="t1611">
+    <title>Programa de obra</title>
+    <leveled-start>2001-01-08T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1612">
+    <title>Presupuesto general de obra</title>
+    <leveled-start>2001-01-08T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1613">
+    <title>Sistema de gestión integral de obra</title>
+    <leveled-start>2001-01-08T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1620">
+    <title>Estudios para la operación</title>
+    <type>group</type>
+    <child-task idref="t1621"/>
+    <child-task idref="t1622"/>
+  </task>
+  <task id="t1621">
+    <title>Plan organizacional estratégico (POE)</title>
+    <leveled-start>2001-01-08T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1622">
+    <title>Plan de gestión integral (PGI)</title>
+    <leveled-start>2001-01-08T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1630">
+    <title>Estudios para la reintegración</title>
+    <type>group</type>
+    <child-task idref="t1631"/>
+    <child-task idref="t1632"/>
+    <child-task idref="t1633"/>
+  </task>
+  <task id="t1631">
+    <title>Análisis multidimensional de reintegración</title>
+    <leveled-start>2001-01-08T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1632">
+    <title>Evaluación iSTATE-R</title>
+    <leveled-start>2001-01-08T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t1633">
+    <title>Plan general de reintegración (PRI)</title>
+    <leveled-start>2001-01-08T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2000">
+    <title>Inicio de actividades</title>
+    <type>group</type>
+    <child-task idref="t2001"/>
+  </task>
+  <task id="t2001">
+    <title>Creación formal de las obras</title>
+    <leveled-start>2001-01-09T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2100">
+    <title>Administración &amp; Gerencia (AIU+)</title>
+    <type>group</type>
+    <child-task idref="t2110"/>
+    <child-task idref="t2120"/>
+    <child-task idref="t2130"/>
+    <child-task idref="t2140"/>
+    <prerequisite-task idref="t2000"/>
+  </task>
+  <task id="t2110">
+    <title>(A) Generalidades en el proyecto</title>
+    <type>group</type>
+    <child-task idref="t2111"/>
+    <child-task idref="t2112"/>
+    <child-task idref="t2113"/>
+    <child-task idref="t2114"/>
+    <child-task idref="t2115"/>
+    <child-task idref="t2116"/>
+  </task>
+  <task id="t2111">
+    <title>Propiedades y bienes en general</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2112">
+    <title>Servicios generales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2113">
+    <title>Servicios especiales de soporte a la construcción</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2114">
+    <title>Sistema de gestión integral (SGI)</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2115">
+    <title>Supervisión de proyecto</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2116">
+    <title>Interventoría de proyecto</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2120">
+    <title>(I) Actividades imprevistas</title>
+    <type>group</type>
+    <child-task idref="t2121"/>
+    <child-task idref="t2122"/>
+  </task>
+  <task id="t2121">
+    <title>Actividades ejecutadas por demanda o requerimiento especial del proyecto</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2122">
+    <title>Actividades accidentales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2130">
+    <title>(U) Distribución de utilidades</title>
+    <type>group</type>
+    <child-task idref="t2131"/>
+    <child-task idref="t2132"/>
+  </task>
+  <task id="t2131">
+    <title>Utilidades para comisionamiento</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2132">
+    <title>Utilidades primarias</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2140">
+    <title>+ Garantías y tributos</title>
+    <type>group</type>
+    <child-task idref="t2141"/>
+    <child-task idref="t2142"/>
+  </task>
+  <task id="t2141">
+    <title>Seguros y garantías para el proyecto</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2142">
+    <title>Gastos tributarios, legales y de representación</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2200">
+    <title>Construcción de edificaciones</title>
+    <type>group</type>
+    <child-task idref="t2210"/>
+    <child-task idref="t2220"/>
+    <child-task idref="t2230"/>
+    <child-task idref="t2240"/>
+    <child-task idref="t2250"/>
+    <child-task idref="t2260"/>
+    <child-task idref="t2270"/>
+    <prerequisite-task idref="t2000"/>
+  </task>
+  <task id="t2210">
+    <title>Obras preliminares y provisionales</title>
+    <type>group</type>
+    <child-task idref="t2211"/>
+    <child-task idref="t2212"/>
+    <child-task idref="t2213"/>
+    <child-task idref="t2214"/>
+    <child-task idref="t2215"/>
+    <child-task idref="t2216"/>
+    <child-task idref="t2217"/>
+    <child-task idref="t2218"/>
+  </task>
+  <task id="t2211">
+    <title>Propiedades y otros bienes</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2212">
+    <title>Construcciones provisionales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2213">
+    <title>Instalaciones provisionales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2214">
+    <title>Alistamiento de terrenos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2215">
+    <title>Demoliciones</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2216">
+    <title>Logística y traslados en obra</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2217">
+    <title>Localización y replanteo</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2218">
+    <title>Apuntalamientos temporales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2220">
+    <title>Obras para estructuras</title>
+    <type>group</type>
+    <child-task idref="t2221"/>
+    <child-task idref="t2222"/>
+    <child-task idref="t2223"/>
+    <child-task idref="t2224"/>
+    <child-task idref="t2225"/>
+    <child-task idref="t2226"/>
+    <child-task idref="t2227"/>
+    <child-task idref="t2228"/>
+    <child-task idref="t2229"/>
+    <prerequisite-task idref="t2210" kind="SS"/>
+  </task>
+  <task id="t2221">
+    <title>Estabilización de terrenos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2222">
+    <title>Movimiento de tierras</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2223">
+    <title>Estructuras de pavimentos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2224">
+    <title>Estructuras en maderas</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2225">
+    <title>Estructuras en mamposterías</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2226">
+    <title>Estructuras metálicas</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2227">
+    <title>Estructuras en concreto simple</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2228">
+    <title>Estructuras en concreto reforzado</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2229">
+    <title>Otros componentes, sistemas y materiales estructurales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2230">
+    <title>Obras de redes hidrosanitarias</title>
+    <type>group</type>
+    <child-task idref="t2231"/>
+    <child-task idref="t2232"/>
+    <child-task idref="t2233"/>
+    <prerequisite-task idref="t2220" kind="SS"/>
+  </task>
+  <task id="t2231">
+    <title>Redes para aguas ambientales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2232">
+    <title>Redes para agua potable</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2233">
+    <title>Redes para aguas servidas</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2240">
+    <title>Obras de redes mecánicas</title>
+    <type>group</type>
+    <child-task idref="t2241"/>
+    <child-task idref="t2242"/>
+    <child-task idref="t2243"/>
+    <child-task idref="t2244"/>
+    <prerequisite-task idref="t2220" kind="SS"/>
+  </task>
+  <task id="t2241">
+    <title>Equipos y sistemas de transporte</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2242">
+    <title>Sistemas de bombeo/conducción</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2243">
+    <title>Sistemas de ventilación</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2244">
+    <title>Otros sistemas mecánicos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2250">
+    <title>Obras de redes energéticas</title>
+    <type>group</type>
+    <child-task idref="t2251"/>
+    <child-task idref="t2252"/>
+    <child-task idref="t2253"/>
+    <child-task idref="t2254"/>
+    <child-task idref="t2255"/>
+    <prerequisite-task idref="t2220" kind="SS"/>
+  </task>
+  <task id="t2251">
+    <title>Sistemas de generación energética</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2252">
+    <title>Sistemas de interconexión energética</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2253">
+    <title>Sistemas de distribución energética</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2254">
+    <title>Sistemas de aterrizado de redes y protección eléctrica</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2255">
+    <title>Sistemas y redes de telemática</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2260">
+    <title>Obras arquitectónicas</title>
+    <type>group</type>
+    <child-task idref="t2261"/>
+    <child-task idref="t2262"/>
+    <child-task idref="t2263"/>
+    <child-task idref="t2264"/>
+    <child-task idref="t2265"/>
+    <child-task idref="t2266"/>
+    <prerequisite-task idref="t2220" kind="SS"/>
+    <prerequisite-task idref="t2230" kind="SS"/>
+    <prerequisite-task idref="t2240" kind="SS"/>
+    <prerequisite-task idref="t2250" kind="SS"/>
+  </task>
+  <task id="t2261">
+    <title>Mamposterías arquitectónicas</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2262">
+    <title>Construcción seca y carpintería</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2263">
+    <title>Vidriería y cristalería</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2264">
+    <title>Pinturas, recubrimientos y revestimientos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2265">
+    <title>Herrajería y ferretería</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2266">
+    <title>Paisajismo y decoración</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2270">
+    <title>Obras complementarias</title>
+    <type>group</type>
+    <child-task idref="t2271"/>
+    <child-task idref="t2272"/>
+  </task>
+  <task id="t2271">
+    <title>Obras para prevención, manejo y control de riesgos catastróficos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2272">
+    <title>Otros trabajos y partidas en la construcción de edificaciones</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2300">
+    <title>Construcción de maquinaria</title>
+    <type>group</type>
+    <child-task idref="t2310"/>
+    <child-task idref="t2320"/>
+    <child-task idref="t2330"/>
+    <child-task idref="t2340"/>
+    <child-task idref="t2350"/>
+    <prerequisite-task idref="t2000"/>
+  </task>
+  <task id="t2310">
+    <title>Obras preliminares y provisionales</title>
+    <type>group</type>
+    <child-task idref="t2311"/>
+    <child-task idref="t2312"/>
+    <child-task idref="t2313"/>
+    <child-task idref="t2314"/>
+    <child-task idref="t2315"/>
+  </task>
+  <task id="t2311">
+    <title>Construcciones provisionales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2312">
+    <title>Instalaciones provisionales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2313">
+    <title>Logística y traslados en obra</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2314">
+    <title>Localización y replanteo</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2315">
+    <title>Apuntalamientos temporales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2320">
+    <title>Obras para estructuras</title>
+    <type>group</type>
+    <child-task idref="t2321"/>
+    <child-task idref="t2322"/>
+    <child-task idref="t2323"/>
+    <child-task idref="t2324"/>
+    <prerequisite-task idref="t2310" kind="SS"/>
+  </task>
+  <task id="t2321">
+    <title>Estructuras en madera</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2322">
+    <title>Estructuras metálicas</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2323">
+    <title>Estructuras en concreto</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2324">
+    <title>Otros componentes, sistemas y materiales estructurales</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2330">
+    <title>Obras para redes de soporte</title>
+    <type>group</type>
+    <child-task idref="t2331"/>
+    <child-task idref="t2332"/>
+    <child-task idref="t2333"/>
+    <child-task idref="t2334"/>
+    <prerequisite-task idref="t2320" kind="SS"/>
+  </task>
+  <task id="t2331">
+    <title>Redes hidráulicas</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2332">
+    <title>Redes mecánicas</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2333">
+    <title>Redes energéticas</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2334">
+    <title>Otras redes complementarias</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2340">
+    <title>Obras arquitectónicas</title>
+    <type>group</type>
+    <child-task idref="t2341"/>
+    <child-task idref="t2342"/>
+    <child-task idref="t2343"/>
+    <child-task idref="t2344"/>
+    <child-task idref="t2345"/>
+    <prerequisite-task idref="t2330"/>
+  </task>
+  <task id="t2341">
+    <title>Armazones y armaduras</title>
+    <leveled-start>2001-01-10T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2342">
+    <title>Vidriería y cristalería</title>
+    <leveled-start>2001-01-10T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2343">
+    <title>Pinturas, recubrimientos y revestimientos</title>
+    <leveled-start>2001-01-10T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2344">
+    <title>Herrajería y ferretería</title>
+    <leveled-start>2001-01-10T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2345">
+    <title>Otros componentes, sistemas y materiales arquitectónicos</title>
+    <leveled-start>2001-01-10T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2350">
+    <title>Obras complementarias</title>
+    <type>group</type>
+    <child-task idref="t2351"/>
+    <child-task idref="t2352"/>
+  </task>
+  <task id="t2351">
+    <title>Obras de prevención, manejo y control de riesgos catastróficos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2352">
+    <title>Otros trabajos y partidas en la construcción de maquinaria</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2400">
+    <title>Construcción de prototipos</title>
+    <type>group</type>
+    <child-task idref="t2410"/>
+    <child-task idref="t2420"/>
+    <child-task idref="t2430"/>
+    <child-task idref="t2440"/>
+    <prerequisite-task idref="t2000"/>
+  </task>
+  <task id="t2410">
+    <title>Pre-producción</title>
+    <type>group</type>
+    <child-task idref="t2411"/>
+    <child-task idref="t2412"/>
+    <child-task idref="t2413"/>
+    <child-task idref="t2414"/>
+  </task>
+  <task id="t2411">
+    <title>Preparaciones locativas</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2412">
+    <title>Preparación de procesos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2413">
+    <title>Preparación de sistemas TI</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2414">
+    <title>Preparación de recursos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2420">
+    <title>Producción</title>
+    <type>group</type>
+    <child-task idref="t2421"/>
+    <child-task idref="t2422"/>
+    <child-task idref="t2423"/>
+    <child-task idref="t2424"/>
+    <prerequisite-task idref="t2410"/>
+  </task>
+  <task id="t2421">
+    <title>Desarrollos funcionales</title>
+    <leveled-start>2001-01-10T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2422">
+    <title>Desarrollos artísticos</title>
+    <leveled-start>2001-01-10T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2423">
+    <title>Desarrollos técnicos</title>
+    <leveled-start>2001-01-10T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2424">
+    <title>Trabajos complementarios</title>
+    <leveled-start>2001-01-10T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2430">
+    <title>Post-producción</title>
+    <type>group</type>
+    <child-task idref="t2431"/>
+    <child-task idref="t2432"/>
+    <child-task idref="t2433"/>
+    <child-task idref="t2434"/>
+    <prerequisite-task idref="t2420"/>
+  </task>
+  <task id="t2431">
+    <title>Acabados funcionales</title>
+    <leveled-start>2001-01-11T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2432">
+    <title>Acabados artísticos</title>
+    <leveled-start>2001-01-11T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2433">
+    <title>Acabados técnicos</title>
+    <leveled-start>2001-01-11T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2434">
+    <title>Alistamiento de productos</title>
+    <leveled-start>2001-01-11T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2440">
+    <title>Obras complementarias</title>
+    <type>group</type>
+    <child-task idref="t2441"/>
+    <child-task idref="t2442"/>
+  </task>
+  <task id="t2441">
+    <title>Obras de prevención, manejo y control de riesgos catastróficos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t2442">
+    <title>Otros trabajos y partidas en la construcción de prototipos</title>
+    <leveled-start>2001-01-10T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t3000">
+    <title>Inicio de actividades</title>
+    <type>group</type>
+    <child-task idref="t3001"/>
+  </task>
+  <task id="t3001">
+    <title>Creación formal de la operación</title>
+    <leveled-start>2001-01-12T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t3100">
+    <title>Gerencia general</title>
+    <type>group</type>
+    <child-task idref="t3110"/>
+    <child-task idref="t3120"/>
+    <child-task idref="t3130"/>
+    <prerequisite-task idref="t3000"/>
+  </task>
+  <task id="t3110">
+    <title>Dirección administrativa</title>
+    <type>group</type>
+    <child-task idref="t3111"/>
+    <child-task idref="t3112"/>
+  </task>
+  <task id="t3111">
+    <title>Sistema general de gestión integral organizacional (SGI)</title>
+    <leveled-start>2001-01-12T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t3112">
+    <title>Sistema general de inspección y control organizacional (SIC)</title>
+    <leveled-start>2001-01-12T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t3120">
+    <title>Dirección económica</title>
+    <type>group</type>
+    <child-task idref="t3121"/>
+    <child-task idref="t3122"/>
+    <child-task idref="t3123"/>
+    <child-task idref="t3124"/>
+  </task>
+  <task id="t3121">
+    <title>Gestión de utilidades</title>
+    <leveled-start>2001-01-12T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t3122">
+    <title>Gestión de inversiones</title>
+    <leveled-start>2001-01-12T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t3123">
+    <title>Gestión de seguros y garantías</title>
+    <leveled-start>2001-01-12T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t3124">
+    <title>Gestión tributaria, legal y de representación</title>
+    <leveled-start>2001-01-12T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t3130">
+    <title>Dirección técnico-operativa</title>
+    <type>group</type>
+    <child-task idref="t3131"/>
+    <child-task idref="t3132"/>
+  </task>
+  <task id="t3131">
+    <title>Coordinación de recursos y tecnologías</title>
+    <leveled-start>2001-01-12T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t3132">
+    <title>Coordinación de procesos y operaciones</title>
+    <leveled-start>2001-01-12T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4000">
+    <title>Inicio de actividades</title>
+    <type>group</type>
+    <child-task idref="t4001"/>
+  </task>
+  <task id="t4001">
+    <title>Terminación formal del proyecto</title>
+    <leveled-start>2001-01-13T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4100">
+    <title>Administración &amp; Gerencia (AIU+)</title>
+    <type>group</type>
+    <child-task idref="t4110"/>
+    <child-task idref="t4120"/>
+    <child-task idref="t4130"/>
+    <child-task idref="t4140"/>
+    <prerequisite-task idref="t4000"/>
+  </task>
+  <task id="t4110">
+    <title>(A) Generalidades en el proyecto</title>
+    <type>group</type>
+    <child-task idref="t4111"/>
+    <child-task idref="t4112"/>
+    <child-task idref="t4113"/>
+    <child-task idref="t4114"/>
+    <child-task idref="t4115"/>
+  </task>
+  <task id="t4111">
+    <title>Propiedades y bienes en general</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4112">
+    <title>Servicios generales</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4113">
+    <title>Servicios especiales de soporte a la reintegración</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4114">
+    <title>Sistema de gestión integral (SGI)</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4115">
+    <title>Supervisión de proyecto</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4120">
+    <title>(I) Actividades imprevistas</title>
+    <type>group</type>
+    <child-task idref="t4121"/>
+    <child-task idref="t4122"/>
+  </task>
+  <task id="t4121">
+    <title>Actividades ejecutadas por demanda o requerimiento especial del proyecto</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4122">
+    <title>Actividades accidentales</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4130">
+    <title>(U) Distribución de utilidades</title>
+    <type>group</type>
+    <child-task idref="t4131"/>
+    <child-task idref="t4132"/>
+  </task>
+  <task id="t4131">
+    <title>Utilidades para comisionamiento</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4132">
+    <title>Utilidades primarias</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4140">
+    <title>(+) Garantías y tributos</title>
+    <type>group</type>
+    <child-task idref="t4141"/>
+    <child-task idref="t4142"/>
+  </task>
+  <task id="t4141">
+    <title>Seguros y garantías para el proyecto</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4142">
+    <title>Gastos tributarios, legales y de representación</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4200">
+    <title>Clausura de operaciones</title>
+    <type>group</type>
+    <child-task idref="t4210"/>
+    <child-task idref="t4220"/>
+    <child-task idref="t4230"/>
+    <prerequisite-task idref="t4000"/>
+  </task>
+  <task id="t4210">
+    <title>Culminación de actividades de producción</title>
+    <type>group</type>
+    <child-task idref="t4211"/>
+    <child-task idref="t4212"/>
+    <child-task idref="t4213"/>
+  </task>
+  <task id="t4211">
+    <title>Terminación de contratos para suministro de materias primas</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4212">
+    <title>Terminación de contratos con trabajadores y colaboradores</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4213">
+    <title>Terminación de contratos para uso de equipos y maquinaria</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4220">
+    <title>Culminación de actividades de comercialización</title>
+    <type>group</type>
+    <child-task idref="t4221"/>
+    <child-task idref="t4222"/>
+    <child-task idref="t4223"/>
+    <child-task idref="t4224"/>
+  </task>
+  <task id="t4221">
+    <title>Terminación de contratos para compras</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4222">
+    <title>Terminación de contratos para ventas</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4223">
+    <title>Terminación de contratos para distribuciones</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4224">
+    <title>Terminación de contratos para soporte a la comercialización</title>
+    <leveled-start>2001-01-15T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4230">
+    <title>Culminación de actividades de administración</title>
+    <type>group</type>
+    <child-task idref="t4231"/>
+    <child-task idref="t4232"/>
+    <child-task idref="t4233"/>
+    <prerequisite-task idref="t4100"/>
+  </task>
+  <task id="t4231">
+    <title>Terminación de contratos para servicios generales</title>
+    <leveled-start>2001-01-15T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4232">
+    <title>Terminación de contratos para servicios especiales, servicios profesionales de consultorías y auditorías empresariales</title>
+    <leveled-start>2001-01-15T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4233">
+    <title>Cierre del sistema de gestión integral</title>
+    <leveled-start>2001-01-15T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4300">
+    <title>Restitución integral de recursos</title>
+    <type>group</type>
+    <child-task idref="t4310"/>
+    <child-task idref="t4320"/>
+    <child-task idref="t4330"/>
+    <prerequisite-task idref="t4210"/>
+    <prerequisite-task idref="t4220"/>
+  </task>
+  <task id="t4310">
+    <title>Liquidación del proyecto</title>
+    <type>group</type>
+    <child-task idref="t4311"/>
+    <child-task idref="t4312"/>
+    <child-task idref="t4313"/>
+    <child-task idref="t4314"/>
+  </task>
+  <task id="t4311">
+    <title>Deconstrucción del proyecto</title>
+    <leveled-start>2001-01-15T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4312">
+    <title>Inventariado de recursos</title>
+    <leveled-start>2001-01-15T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4313">
+    <title>Venta de bienes tangibles</title>
+    <leveled-start>2001-01-15T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4314">
+    <title>Venta de bienes intangibles</title>
+    <leveled-start>2001-01-15T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4320">
+    <title>Restitución multidimensional</title>
+    <type>group</type>
+    <child-task idref="t4321"/>
+    <child-task idref="t4322"/>
+    <child-task idref="t4323"/>
+    <child-task idref="t4324"/>
+    <child-task idref="t4325"/>
+    <prerequisite-task idref="t4310"/>
+  </task>
+  <task id="t4321">
+    <title>Reintegración Social</title>
+    <leveled-start>2001-01-16T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4322">
+    <title>Reintegración Comercial</title>
+    <leveled-start>2001-01-16T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4323">
+    <title>Reintegración Jurídica</title>
+    <leveled-start>2001-01-16T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4324">
+    <title>Reintegración Organizacional</title>
+    <leveled-start>2001-01-16T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4325">
+    <title>Reintegración Ambiental</title>
+    <leveled-start>2001-01-16T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4330">
+    <title>Cierre contable general</title>
+    <type>group</type>
+    <child-task idref="t4331"/>
+    <child-task idref="t4332"/>
+    <prerequisite-task idref="t4320"/>
+  </task>
+  <task id="t4331">
+    <title>Consolidación de información</title>
+    <leveled-start>2001-01-17T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4332">
+    <title>Informe contable final</title>
+    <leveled-start>2001-01-17T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t4331"/>
+  </task>
+  <task id="t4400">
+    <title>Terminación del proyecto</title>
+    <type>group</type>
+    <child-task idref="t4410"/>
+    <child-task idref="t4420"/>
+    <prerequisite-task idref="t4230"/>
+    <prerequisite-task idref="t4332"/>
+  </task>
+  <task id="t4410">
+    <title>Documentación final</title>
+    <type>group</type>
+    <child-task idref="t4411"/>
+    <child-task idref="t4412"/>
+  </task>
+  <task id="t4411">
+    <title>Consolidación de archivo documental del proyecto</title>
+    <leveled-start>2001-01-18T15:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4412">
+    <title>Presentación documental ante las autoridades competentes</title>
+    <leveled-start>2001-01-19T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t4411"/>
+  </task>
+  <task id="t4420">
+    <title>Revisión y evaluación privada</title>
+    <type>group</type>
+    <child-task idref="t4421"/>
+    <child-task idref="t4422"/>
+    <prerequisite-task idref="t4411"/>
+  </task>
+  <task id="t4421">
+    <title>Análisis multidimensional de cumplimiento del proyecto</title>
+    <leveled-start>2001-01-19T11:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+  </task>
+  <task id="t4422">
+    <title>Evaluación iSTATE-C</title>
+    <leveled-start>2001-01-19T19:00:00.000Z</leveled-start>
+    <effort>28800</effort>
+    <prerequisite-task idref="t4421"/>
+  </task>
+  <task id="t9991">
+    <title>Fin de Planeación</title>
+    <type>milestone</type>
+    <leveled-start>2001-01-09T15:00:00.000Z</leveled-start>
+    <prerequisite-task idref="t1100"/>
+    <prerequisite-task idref="t1600"/>
+  </task>
+  <task id="t9992">
+    <title>Fin de Implementación</title>
+    <type>milestone</type>
+    <leveled-start>2001-01-11T23:00:00.000Z</leveled-start>
+    <prerequisite-task idref="t2100"/>
+    <prerequisite-task idref="t2200"/>
+    <prerequisite-task idref="t2300"/>
+    <prerequisite-task idref="t2400"/>
+  </task>
+  <task id="t9993">
+    <title>Fin de Ejecución/Operación</title>
+    <type>milestone</type>
+    <leveled-start>2001-01-13T15:00:00.000Z</leveled-start>
+    <prerequisite-task idref="t3100"/>
+  </task>
+  <task id="t9994">
+    <title>Fin de Reintegración</title>
+    <type>milestone</type>
+    <leveled-start>2001-01-20T15:00:00.000Z</leveled-start>
+    <prerequisite-task idref="t4422"/>
+  </task>
+  <critical-path root="-1" enabled="false" resources="false">
+    <color space="srgb" r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>

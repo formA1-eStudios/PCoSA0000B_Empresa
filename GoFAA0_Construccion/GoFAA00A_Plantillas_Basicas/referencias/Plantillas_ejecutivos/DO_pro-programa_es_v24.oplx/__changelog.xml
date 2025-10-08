@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.1</version>
+  <task-change-set user="Juan Torres" date="2023-07-04T00:51:53.069Z" timestamp="2023-07-04T00:51:53.069Z">
+    <change idref="t2" to="t-1" to-position="1" resolved="yes">
+      <change idref="t2" attribute="resourceLeveledDate" type="date" to="2001-01-01T11:00:00.000Z"/>
+      <change idref="t2" attribute="title" type="string" to="Implementación"/>
+    </change>
+    <change idref="t3" to="t-1" to-position="2" resolved="yes">
+      <change idref="t3" attribute="resourceLeveledDate" type="date" to="2001-01-01T11:00:00.000Z"/>
+      <change idref="t3" attribute="title" type="string" to="Ejecución / Operación"/>
+    </change>
+    <change idref="t4" to="t-1" to-position="3" resolved="yes">
+      <change idref="t4" attribute="resourceLeveledDate" type="date" to="2001-01-01T11:00:00.000Z"/>
+      <change idref="t4" attribute="title" type="string" to="Reintegración"/>
+    </change>
+    <change idref="t1" attribute="title" type="string" from="Task 1" to="Planeación" resolved="yes"/>
+    <change idref="t1" attribute="resourceLeveledDate" type="date" to="2001-01-01T11:00:00.000Z" resolved="yes"/>
+    <change idref="t1" attribute="styleDict" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.794&quot;;&#10;        g = &quot;0.794&quot;;&#10;        r = &quot;0.794&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="t1" attribute="notesAllowingNil" type="textdata" to="e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYxNTYxXGNvY29hc3VicnRmNjEwCntcZm9udHRibFxmMFxmbmlsXGZjaGFyc2V0MCBBdmVuaXJOZXh0Q29uZGVuc2VkLUJvbGRJdGFsaWM7XGYxXGZuaWxcZmNoYXJzZXQwIEF2ZW5pck5leHRDb25kZW5zZWQtVWx0cmFMaWdodEl0YWxpYzt9CntcY29sb3J0Ymw7XHJlZDI1NVxncmVlbjI1NVxibHVlMjU1O1xyZWQyNVxncmVlbjI1XGJsdWUyNTt9CntcKlxleHBhbmRlZGNvbG9ydGJsOztcY3NzcmdiXGMxMjk4NFxjMTI5ODVcYzEyOTg0O30KXHBhcmRcdHg1NjBcdHgxMTIwXHR4MTY4MFx0eDIyNDBcdHgyODAwXHR4MzM2MFx0eDM5MjBcdHg0NDgwXHR4NTA0MFx0eDU2MDBcdHg2MTYwXHR4NjcyMFxwYXJkaXJuYXR1cmFsXHBhcnRpZ2h0ZW5mYWN0b3IwCgpcZjBcaVxiXGZzMjQgXGNmMiBOT1RBOgpcZjFcYjAgXGNmMiAgSW5jbHV5ZSBsb3MgZWxlbWVudG9zIG5lY2VzYXJpb3MgcGFyYSBlbCBwcm95ZWN0bywgc2VnXCdmYW4gY2FkYSB1bmEgZGUgbGFzIGNhdGVnb3JcJ2VkYXMgaW5kaWNhZGFzIGEgY29udGludWFjaVwnZjNuLn0=" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="Juan Torres" date="2023-07-04T00:51:53.069Z" timestamp="2023-07-04T00:51:53.069Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";21600,64800;21600,64800;21600,64800;21600,64800;21600,64800;21600,64800" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="Juan Torres" date="2023-07-04T00:51:53.069Z" timestamp="2023-07-04T00:51:53.069Z">
+    <change idref="m1" attribute="namedStyleProps" type="dict" to="{&#10;    &quot;_order&quot; =     (&#10;        kw5y5l9OLpZ,&#10;        &quot;i_3CprjtnQe&quot;&#10;    );&#10;    &quot;i_3CprjtnQe&quot; = &quot;Pro_Materiales&quot;;&#10;    kw5y5l9OLpZ = &quot;Pro_Equipos&quot;;&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="scheduleGranularity" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="m1" attribute="columnTitleStyle" type="dict" from="{&#10;    &quot;font-name&quot; = &quot;HelveticaNeue-Medium&quot;;&#10;    &quot;font-size&quot; = 12;&#10;    &quot;font-weight&quot; = 6;&#10;    &quot;paragraph-alignment&quot; = center;&#10;}" to="{&#10;    &quot;font-condensed&quot; = 1;&#10;    &quot;font-family&quot; = Skia;&#10;    &quot;font-fill&quot; =     {&#10;        b = &quot;0.574885&quot;;&#10;        g = &quot;0.328521&quot;;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;font-name&quot; = &quot;Skia-Regular_Light-Condensed&quot;;&#10;    &quot;font-size&quot; = 14;&#10;    &quot;font-weight&quot; = 3;&#10;    &quot;paragraph-alignment&quot; = center;&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" resolved="yes"/>
+    <change idref="m1" attribute="noteStyle" type="dict" from="{&#10;    &quot;font-fill&quot; =     {&#10;        space = gg22;&#10;        w = &quot;0.409218&quot;;&#10;    };&#10;    &quot;font-size&quot; = 12;&#10;}" to="{&#10;    &quot;font-condensed&quot; = 1;&#10;    &quot;font-family&quot; = &quot;Avenir Next Condensed&quot;;&#10;    &quot;font-italic&quot; = 1;&#10;    &quot;font-weight&quot; = 1;&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="currencyName" type="string" to="COP1,235" resolved="yes"/>
+    <change idref="m1" attribute="resourceStyle" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="groupTaskStyle" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.794&quot;;&#10;        g = &quot;0.794&quot;;&#10;        r = &quot;0.794&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="completedTaskStyle" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.566152&quot;;&#10;        g = &quot;0.803&quot;;&#10;        r = &quot;0.440847&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="projectTitle" type="string" to="DO_pro-dipoprogra_es_p1.0" resolved="yes"/>
+    <change idref="m1" attribute="namedStyle_i_3CprjtnQe" type="dict" to="{&#10;    &quot;font-condensed&quot; = 1;&#10;    &quot;font-family&quot; = &quot;Avenir Next Condensed&quot;;&#10;    &quot;font-size&quot; = 12;&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.891&quot;;&#10;        g = &quot;0.385803&quot;;&#10;        r = &quot;0.883927&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="namedStyle_kw5y5l9OLpZ" type="dict" to="{&#10;    inheritedStyles =     (&#10;        &quot;Pro_Materiales&quot;&#10;    );&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="overdueTaskStyle" type="dict" to="{&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="milestoneTaskStyle" type="dict" to="{&#10;    &quot;font-italic&quot; = 1;&#10;    &quot;gantt-fill-color&quot; =     {&#10;        b = &quot;0.211432&quot;;&#10;        g = &quot;0.458381&quot;;&#10;        r = &quot;0.988&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+    <change idref="m1" attribute="baseStyle" type="dict" to="{&#10;    &quot;font-family&quot; = &quot;Avenir Next&quot;;&#10;    &quot;font-fill&quot; =     {&#10;        b = &quot;0.129844&quot;;&#10;        g = &quot;0.129846&quot;;&#10;        r = &quot;0.129842&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;font-size&quot; = 12;&#10;    &quot;gantt-alternate-color&quot; =     {&#10;        a = &quot;0.67&quot;;&#10;        b = &quot;0.921441&quot;;&#10;        g = &quot;0.921453&quot;;&#10;        r = &quot;0.921431&quot;;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-separator-color&quot; =     {&#10;        b = &quot;0.574885&quot;;&#10;        g = &quot;0.328521&quot;;&#10;        r = 0;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-time-off-color&quot; =     {&#10;        a = &quot;0.4&quot;;&#10;        b = &quot;0.301&quot;;&#10;        g = &quot;0.728788&quot;;&#10;        r = 1;&#10;        space = srgb;&#10;    };&#10;    &quot;gantt-today-color&quot; =     {&#10;        a = &quot;0.4&quot;;&#10;        b = &quot;0.896&quot;;&#10;        g = &quot;0.831875&quot;;&#10;        r = &quot;0.450688&quot;;&#10;        space = srgb;&#10;    };&#10;}" resolved="yes"/>
+  </metadata-change-set>
+</changelog>

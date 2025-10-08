@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2" file-format-version="2">
+  <window x="377" y="238" w="1251" h="654">
+    <editing-scenario>koSbx3m9Z8q</editing-scenario>
+    <view>task</view>
+    <change-tracking/>
+    <status-display>basic</status-display>
+    <task-view>
+      <split-view-divider-position>702</split-view-divider-position>
+      <outline x="0" y="0" w="702" h="557">
+        <column name="Unique ID" width="75"/>
+        <column name="Title" width="365"/>
+        <column name="Violations" width="20"/>
+        <column name="Notes" width="20"/>
+        <column name="Status" width="20"/>
+        <column name="Attachments" width="20"/>
+        <column name="Time" width="68"/>
+        <column name="Total Task Cost" width="105"/>
+        <expanded-item-notes idrefs="t1"/>
+        <selected-items-at-filter-time idrefs="t3 t2 t4"/>
+      </outline>
+      <gantt-view x="0" y="0" w="217" h="557">
+        <view-mode>actual</view-mode>
+        <dependency-lines/>
+        <constraints/>
+        <show-project-end/>
+        <task-bar-label task-type="group" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="292.882">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
+        <offtime-display>none</offtime-display>
+      </gantt-view>
+    </task-view>
+    <resource-view>
+      <split-view-divider-position>306</split-view-divider-position>
+      <outline x="0" y="0" w="306" h="609">
+        <column name="Notes" width="20"/>
+        <column name="Type" width="49"/>
+        <column name="Resource" width="135"/>
+        <column name="#" width="75"/>
+      </outline>
+      <timeline x="223730" y="0" w="573" h="609">
+        <offtime-display>none</offtime-display>
+        <show-project-end/>
+        <task-bar-label task-type="group" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="group" position="right">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="milestone" position="right">
+          <key>Assigned</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="left">
+          <key>Title</key>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="center">
+          <key/>
+        </task-bar-label>
+        <task-bar-label task-type="task" position="right">
+          <key/>
+        </task-bar-label>
+        <scale scale-name="Automatic" full-day-width="100">
+          <selected/>
+        </scale>
+        <scale scale-name="Day" full-day-width="405"/>
+        <scale scale-name="Hour" full-day-width="21960"/>
+        <scale scale-name="Minute" full-day-width="21600"/>
+        <scale scale-name="Month" full-day-width="11.5"/>
+        <scale scale-name="Quarter" full-day-width="3.2"/>
+        <scale scale-name="Week" full-day-width="54"/>
+        <scale scale-name="Year" full-day-width="0.7875"/>
+        <scale scale-name="legacy-day-widths" full-day-width="1"/>
+      </timeline>
+    </resource-view>
+    <calendar>
+      <split-view-divider-position>290</split-view-divider-position>
+      <outline x="0" y="0" w="275" h="533">
+        <column name="Notes" width="20"/>
+        <column name="Type" width="49"/>
+        <column name="Resource" width="160"/>
+        <column name="Custom Work Week" width="20"/>
+        <column name="Schedule Exception" width="20"/>
+      </outline>
+    </calendar>
+    <network-view>
+      <network-view>
+        <task-table-style/>
+        <milestone-table-style/>
+        <group-table-style/>
+      </network-view>
+    </network-view>
+  </window>
+  <project>
+    <title>DO_pro-dipoprogra_es_p1.0</title>
+    <next-task-id>10</next-task-id>
+    <next-resource-id>2</next-resource-id>
+    <scenario id="koSbx3m9Z8q" name="Actual" filename="Actual.xml"/>
+    <date-display dates="true" times="true" seconds="false"/>
+    <numbering-style>wbs</numbering-style>
+    <auto-level/>
+    <critical-path-slack>0</critical-path-slack>
+    <currency-format>COP1,235</currency-format>
+    <duration-format hours-per-day="6" hours-per-week="36" hours-per-month="132" hours-per-year="1440" hours="true" days="true" weeks="true"/>
+    <effort-format hours-per-day="6" hours-per-week="36" hours-per-month="132" hours-per-year="1440" hours="true" days="true" weeks="true"/>
+    <base-style>
+      <style>
+        <value key="font-family">Avenir Next</value>
+        <value key="font-fill">
+          <color space="srgb" r="0.129842" g="0.129846" b="0.129844"/>
+        </value>
+        <value key="font-size">12</value>
+        <value key="gantt-alternate-color">
+          <color space="srgb" r="0.921431" g="0.921453" b="0.921441" a="0.67"/>
+        </value>
+        <value key="gantt-separator-color">
+          <color space="srgb" r="0" g="0.328521" b="0.574885"/>
+        </value>
+        <value key="gantt-time-off-color">
+          <color space="srgb" r="1" g="0.728788" b="0.301" a="0.4"/>
+        </value>
+        <value key="gantt-today-color">
+          <color space="srgb" r="0.450688" g="0.831875" b="0.896" a="0.4"/>
+        </value>
+      </style>
+    </base-style>
+    <column-title-style>
+      <style>
+        <value key="font-condensed">yes</value>
+        <value key="font-family">Skia</value>
+        <value key="font-fill">
+          <color space="srgb" r="0" g="0.328521" b="0.574885"/>
+        </value>
+        <value key="font-name">Skia-Regular_Light-Condensed</value>
+        <value key="font-size">14</value>
+        <value key="font-weight">3</value>
+        <value key="paragraph-alignment">center</value>
+      </style>
+    </column-title-style>
+    <note-style>
+      <style>
+        <value key="font-condensed">yes</value>
+        <value key="font-family">Avenir Next Condensed</value>
+        <value key="font-italic">yes</value>
+        <value key="font-weight">1</value>
+      </style>
+    </note-style>
+    <standard-task-style>
+      <style/>
+    </standard-task-style>
+    <overdue-task-style>
+      <style>
+        <value key="gantt-fill-color">
+          <color space="srgb" r="1" g="0.728788" b="0.301"/>
+        </value>
+      </style>
+    </overdue-task-style>
+    <completed-task-style>
+      <style>
+        <value key="gantt-fill-color">
+          <color space="srgb" r="0.440847" g="0.803" b="0.566152"/>
+        </value>
+      </style>
+    </completed-task-style>
+    <group-task-style>
+      <style>
+        <value key="gantt-fill-color">
+          <color space="srgb" r="0.794" g="0.794" b="0.794"/>
+        </value>
+      </style>
+    </group-task-style>
+    <milestone-task-style>
+      <style>
+        <value key="font-italic">yes</value>
+        <value key="gantt-fill-color">
+          <color space="srgb" r="0.988" g="0.458381" b="0.211432"/>
+        </value>
+      </style>
+    </milestone-task-style>
+    <resource-style>
+      <style>
+        <value key="gantt-fill-color">
+          <color space="srgb" r="1" g="0.728788" b="0.301"/>
+        </value>
+      </style>
+    </resource-style>
+    <not-editable-style>
+      <style>
+        <value key="font-fill">
+          <color space="gg22" w="0.409218"/>
+        </value>
+      </style>
+    </not-editable-style>
+    <named-styles>
+      <named-style id="i_3CprjtnQe" name="Pro_Materiales" display-order="1">
+        <style>
+          <value key="font-condensed">yes</value>
+          <value key="font-family">Avenir Next Condensed</value>
+          <value key="font-size">12</value>
+          <value key="gantt-fill-color">
+            <color space="srgb" r="0.883927" g="0.385803" b="0.891"/>
+          </value>
+        </style>
+      </named-style>
+      <named-style id="kw5y5l9OLpZ" name="Pro_Equipos" display-order="0">
+        <style>
+          <inherited-style name="Pro_Materiales" idref="i_3CprjtnQe"/>
+        </style>
+      </named-style>
+    </named-styles>
+    <subscribe-refresh>0</subscribe-refresh>
+    <leveling>
+      <constrains-completion-date/>
+    </leveling>
+    <page-adornment>
+      <master-page-headers>
+        <header location="left">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPDocumentTitleVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <header location="right">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPPrintJobTimestampVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </header>
+        <footer location="left">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPDocumentFilenameVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+        <footer location="right">
+          <text>
+            <p>
+              <run>
+                <lit><cell variable="OPPageNumberVariableIdentifier"/></lit>
+              </run>
+            </p>
+          </text>
+        </footer>
+      </master-page-headers>
+    </page-adornment>
+  </project>
+</omniplan>
