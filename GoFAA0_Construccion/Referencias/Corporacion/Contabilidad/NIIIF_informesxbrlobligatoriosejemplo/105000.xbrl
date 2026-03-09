@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbrli:xbrl xmlns:co-sfc_ps-mc_2013-03-28_role-105000="http://www.superfinanciera.gov.co/xbrl/ifrs/2016-04-01/co-sfc_ps-mc_2013-03-28_role-105000" xmlns:gen="http://xbrl.org/2008/generic" xmlns:ref="http://www.xbrl.org/2006/ref" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:xl="http://www.xbrl.org/2003/XLink" xmlns:co-sfc-core="http://www.superfinanciera.gov.co/xbrl/ifrs/core/2016-04-01" xmlns:ifrs="http://xbrl.ifrs.org/taxonomy/2013-03-28/ifrs" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:rol_ps_mc_2013-03-28="http://xbrl.ifrs.org/role/ifrs/rol_ps_mc_2013-03-28" xmlns:net="http://www.xbrl.org/2009/role/net" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:reference="http://xbrl.org/2008/reference" xmlns:negated="http://www.xbrl.org/2009/role/negated" xmlns:label="http://xbrl.org/2008/label" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:schemaRef xlink:type="simple" xlink:href="https://www.superfinanciera.gov.co/xbrl/ifrs/2016-04-01/co-sfc-ps_mc_2013-03-28/co-sfc_ps-mc_2013-03-28_role-105000.xsd"/>
+  <xbrli:context id="Context_Duration">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.superfinanciera.gov.co">123456</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:startDate>2016-04-01</xbrli:startDate>
+      <xbrli:endDate>2015-03-31</xbrli:endDate>
+    </xbrli:period>
+  </xbrli:context>
+  <xbrli:context id="Context_Instant">
+    <xbrli:entity>
+      <xbrli:identifier scheme="http://www.superfinanciera.gov.co">123456</xbrli:identifier>
+    </xbrli:entity>
+    <xbrli:period>
+      <xbrli:instant>2015-03-31</xbrli:instant>
+    </xbrli:period>
+  </xbrli:context>
+  <ifrs:ManagementCommentaryExplanatory contextRef="Context_Duration">Prueba</ifrs:ManagementCommentaryExplanatory>
+  <co-sfc-core:FechaAdopcionNormasNIIF contextRef="Context_Instant">2016-04-01</co-sfc-core:FechaAdopcionNormasNIIF>
+  <ifrs:DisclosureOfNatureOfBusinessExplanatory contextRef="Context_Duration">Prueba</ifrs:DisclosureOfNatureOfBusinessExplanatory>
+  <ifrs:DisclosureOfManagementsObjectivesAndItsStrategiesForMeetingThoseObjectivesExplanatory contextRef="Context_Duration">Prueba</ifrs:DisclosureOfManagementsObjectivesAndItsStrategiesForMeetingThoseObjectivesExplanatory>
+  <ifrs:DisclosureOfEntitysMostSignificantResourcesRisksAndRelationshipsExplanatory contextRef="Context_Duration">Prueba</ifrs:DisclosureOfEntitysMostSignificantResourcesRisksAndRelationshipsExplanatory>
+  <ifrs:DisclosureOfResultsOfOperationsAndProspectsExplanatory contextRef="Context_Duration">Prueba</ifrs:DisclosureOfResultsOfOperationsAndProspectsExplanatory>
+  <ifrs:DisclosureOfCriticalPerformanceMeasuresAndIndicatorsThatManagementUsesToEvaluateEntitysPerformanceAgainstStatedObjectivesExplanatory contextRef="Context_Duration">Prueba</ifrs:DisclosureOfCriticalPerformanceMeasuresAndIndicatorsThatManagementUsesToEvaluateEntitysPerformanceAgainstStatedObjectivesExplanatory>
+</xbrli:xbrl>
